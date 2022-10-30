@@ -38,7 +38,7 @@ floating_modifier $mod
 ################################################################################################
 
 exec --no-startup-id volumeicon
-bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
+#bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 #exec --no-startup-id pulseaudio
 #exec --no-startup-id pa-applet
 #bindsym $mod+Ctrl+m exec pavucontrol
@@ -194,7 +194,7 @@ assign [class="heroic"] $ws8
 assign [class="gw2-64.exe"] $ws8
 assign [class="^Steam"] $ws5
 assign [class="Cities.x64"] $ws8
-assign [class="Spotify"] $ws4
+assign [class="(?i)Spotify"] $ws4
 assign [class="nebuchadnezzar"] $ws8
 assign [class="(?i)paradox launcher"] $ws8
 assign [title="Cities: Skylines"] $ws8
@@ -210,6 +210,7 @@ assign [class="Gimp"] $ws6
 assign [class="^Borderlands"] $ws8
 assign [class="7DaysToDie.x86_64"] $ws8
 assign [class="^Human."] $ws8
+assign [title="^Cyperpunk"] $ws8
 # assign [instance="(?i)spotify"] $ws3 # not working
 
 # Open specific applications in floating mode
@@ -243,8 +244,10 @@ for_window [class="ncmpcpp"] floating enable border pixel 1, resize set 1170 850
 for_window [class="Gcolor3"] floating enable
 for_window [class="Steam"] floating enable
 
+no_focus [class="(?i)steam"]
+
 # switch to workspace with urgent window automatically
-for_window [urgent=latest] focus
+#for_window [urgent=latest] focus
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -260,12 +263,12 @@ bindsym $mod+0 mode "$mode_system"
 set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
 mode "$mode_system" {
     bindsym l exec --no-startup-id i3exit lock, mode "default"
-    bindsym s exec --no-startup-id i3exit suspend, mode "default"
+    bindsym s exec --no-startup-id lights off; exec --no-startup-id i3exit suspend, mode "default"
     bindsym u exec --no-startup-id i3exit switch_user, mode "default"
     bindsym e exec --no-startup-id i3exit logout, mode "default"
     bindsym h exec --no-startup-id i3exit hibernate, mode "default"
     bindsym r exec --no-startup-id i3exit reboot, mode "default"
-    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+    bindsym Shift+s exec --no-startup-id lights off; exec --no-startup-id i3exit shutdown, mode "default"
 
     # exit system mode: "Enter" or "Escape"
     bindsym Return mode "default"
@@ -479,7 +482,11 @@ exec --no-startup-id "setxkbmap -layout us,no"
 
 exec --no-startup-id sleep 2; ~/.config/.fehbg; mpd
 
-# Launch Polybar with the supplied theme
+# Launch Polybar through a custom script, with the supplied theme
 exec_always --no-startup-id ~/.config/polybar/launch.sh --grayblocks
 
-exec_always sxhkd
+exec sxhkd
+
+# Turn on my Wiz lights on startup
+# See ~/bin/lights
+exec --no-startup-id "lights cozy"

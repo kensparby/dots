@@ -1,0 +1,94 @@
+# `pkill -USR1 -x sxhkd` to reload this config
+
+# Use `xmodmap -pke` to print the current keyboard layout in usable keycodes.
+
+# i3wm stuff
+
+#super + u
+#      i3-msg border none
+
+#super + y
+#      i3-msg border pixel 1
+
+#super + n
+#      i3-msg border normal
+
+# kill focused window
+super + shift + q
+      i3-msg kill
+
+super + {1-8}
+      i3-msg workspace {1-8}
+
+super + Return
+      kitty
+
+# Launch categorized menu
+super + z
+      morc_menu
+
+super + d
+      rofi -show drun
+
+alt + Tab
+      rofi -show window
+
+# Other applications/etc
+
+# Color picker
+super + alt + p
+      /home/ken/bin/sxhkd_color.sh
+
+# Selection screenshot. Saves in /tmp with timestamp and size, and also in the clipboard.
+super + alt + s
+      scrot -s '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f'
+
+# MPC/MPD controls
+super + comma
+      mpc prev
+
+super + period
+      mpc next
+
+super + slash
+      mpc toggle
+
+super + bracketleft
+      mpc seek -10
+
+super + bracketright
+      mpc seek +10
+
+super + shift + m
+      kitty --class=ncmpcpp ncmpcpp
+
+XF86Tools
+      kitty --class=ncmpcpp ncmpcpp
+
+XF86AudioMute
+    pulsemixer --toggle-mute
+
+# Calls a custom script to change the input language between US English and Norwegian.
+super + alt + Delete
+      /home/ken/bin/changekeyboardlayout.sh
+
+# Binds media keys to Spotify and Shift+media keys to playerctl
+# This is needed because playerctl can control video on websites while Spotify is playing
+
+XF86AudioNext
+    sp next
+
+XF86AudioPrev
+    sp prev
+
+XF86AudioPlay
+    sp play
+
+shift + XF86AudioNext
+      playerctl next
+
+shift + XF86AudioPrev
+      playerctl previous
+
+shift + XF86AudioPlay
+      playerctl play-pause

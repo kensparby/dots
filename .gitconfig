@@ -1,3 +1,9 @@
 [user]
 	email = sparby.k@gmail.com
 	name = Ken Sparby
+[code]
+	excludesfile = /home/ken/.config/.gitignore_global
+[core]
+	excludesFile = /home/ken/.config/.gitignore_global
+[init]
+	defaultBranch = main

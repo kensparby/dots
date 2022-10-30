@@ -4,12 +4,11 @@
 # =================================================
 # =================================================
 
-alias cpu="ps axch -o cmd:20,pid:15,%cpu --sort=-%cpu  | head"
+alias cpu="ps axch -o cmd:20,pid:15,%cpu --sort=-%cpu | head"
+alias mem="ps axch -o cmd:20,pid:15,%mem --sort=-%mem | head"
 alias ports="sudo lsof -iTCP -sTCP:LISTEN -n -P"                    # Show currently open ports with an easy-to-remember command
-alias colors="curl -s https://gist.githubusercontent.com/HaleTom/89ffe32783f89f403bba96bd7bcd1263/raw/ | bash"
+alias colors="curl -s https://gist.githubusercontent.com/HaleTom/89ffe32783f89f403bba96bd7bcd1263/raw/ | zsh"
 alias cra='npx create-react-app'
-alias wifi='nmcli n off && nmcli n on'                              # Briefly turns the wifi receiver off and back on. This to circumvent a particular problem I had with a router.
-alias ystr='tizonia --youtube-audio-stream'
 alias sudoo='sudo -E env "PATH=$PATH"'                              # If you've issues with PATH being different with a sudo command, this is one solution.
 
 # git
@@ -21,18 +20,14 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 alias df='df -h'                                                    # Human-readable sizes
 alias free='free -m'                                                # Show sizes in MB
 alias du='sudo du -h --max-depth 1'                                 # Human-readable way of easily seeing which directories in pwd take up the most space on the drive
+alias grep='grep --color=auto'
 
-# pacman and yay
-alias pacsyu='sudo pacman -Syyu'
-alias yaysua='yay -Sua --noconfirm'
-alias yaysyu='yay -Syu --noconfirm'
+# packages
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 
 # Get top process eating memory/CPU
-alias psmem='ps auxf | sort -nr -k 4'
-alias psmem10='ps auxf | sort -nr -k 4 | head -10'
-alias pscpu='ps auxf | sort -nr -k 3'
-alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
+alias psmem='ps auxf | sort -nr -k 4 | head -10'
+alias pscpu='ps auxf | sort -nr -k 3 | head -10'
 
 # Changing ls to exa
 alias ls='exa -al --color=always --group-directories-first'         # Exa is a non-standard improvement of ls, with (mostly) the same flags
@@ -43,8 +38,6 @@ alias l.='exa -a | egrep "^\."'
 alias lD='exa -D --color=always'
 alias lr='exa -tRFh'
 
-# Colorize grep output (good for log files)
-alias grep='grep --color=auto'
 
 # Shortcuts to copy/paste
 alias c="xclip -sel clip"           # Copy to system clipboard
@@ -64,7 +57,7 @@ getaocinput() {
 # Shortcut for Doom Emacs
 alias doom="$HOME/.emacs.d/bin/doom"
 
-# Shortcut for serving the current folder through http
+# Shortcut for serving the current folder to localhost:9000
 alias serve="browser-sync start -s -f . --no-verify --host $(ip route get 1.1.1.1 | awk '{print $7}') --port 9000 --browser firefox-developer-edition"
 
 # Copy file contents to clipboard
@@ -78,23 +71,23 @@ dl() {
     # yt-dlp --extract-audio --audio-format 'mp3' --audio-quality 0 "$1"
     yt-dlp -x --audio-format 'mp3' --embed-metadata --audio-quality 0 -o "%(artist)s - %(track)s.%(ext)s" "$1"
 }
-#alias dl="youtube-dl -x --audio-format 'mp3' $1"
-
-youtube() {
-    mpv --ytdl-format="bestaudio/best" --no-video "$1"
-}
 
 # Update to currently fastest mirrors
 alias updmirrors="sudo pacman-mirrors --fasttrack"
 
 # Fetch Meyer's CSS reset to current folder
-alias cssreset="wget https://meyerweb.com/eric/tools/css/reset/reset.css"
+# alias cssreset="wget https://meyerweb.com/eric/tools/css/reset/reset.css"
+alias cssreset="cp $HOME/dev/modernreset.css ./reset.css"
 
-# Launch tldr with a theme, for easier reading
-#alias tldr="tldr -t ocean"
+alias utilcss="cp $HOME/dev/utilities.css ./u.css"
 
-# Fix screen layout on login, because something's fucky
-alias screset="~/.screenlayout/reset.sh && ~/.screenlayout/3screens.sh"
+cssnormalize() {
+    if [ "$1" = "mini" ]; then
+        wget https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css
+    elif [ "$#" -eq "0" ]; then
+        wget https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css
+    fi
+}
 
 # Remap `colorer` to use the right directory automatically
 color() {
@@ -104,3 +97,21 @@ color() {
 alias mpdrpc="mpd-discord-rpc"
 alias vim="nvim"
 alias vi="nvim"
+
+imagine() {
+    python \
+        $HOME/ai/stable-diffusion/scripts/txt2img.py \
+        --plms \
+        --ckpt sd-v1-4.ckpt \
+        --skip_grid \
+        --n_samples 1 \
+        --seed 42 \
+        --prompt \
+        "$1"
+}
+
+# Reassigning useless (oh-my-)zsh shortcut to something a little more useful, like, I don't know, maybe a markdown previewer
+unalias md
+md() {
+    pandoc "$1" | lynx -stdin;
+}

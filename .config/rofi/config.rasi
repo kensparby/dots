@@ -1,0 +1,8 @@
+configuration {
+	font: "Hack Nerd Font 9";
+	modi: "window,drun,ssh,combi";
+	combi-modi: "window,drun,ssh";
+	show-icons: true;
+	terminal: "/usr/bin/kitty";
+}
+@theme "/home/ken/.config/rofi/themes/slate.rasi"

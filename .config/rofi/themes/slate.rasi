@@ -1,0 +1,60 @@
+* {
+  background-color: #ffffff00;
+  //background-color: #282c33dd;
+  border-color: #2e343f;
+  text-color: #8ca0aa;
+  spacing: 0;
+  width: 512px;
+  font: "JetBrains Mono 9";
+}
+
+window {
+  background-color: #282c33dd;
+}
+
+inputbar {
+  border: 0 0 1px 0;
+  children: [prompt, entry];
+}
+
+prompt {
+  padding: 16px;
+  border: 0 1px 0 0;
+}
+
+textbox {
+  background-color: #2e343f22;
+  border: 0 0 1px 0;
+  border-color: #282c33;
+  padding: 8px 16px;
+}
+
+entry {
+  padding: 16px;
+}
+
+listview {
+  cycle: false;
+  margin: 0 0 -1px 0;
+  scrollbar: false;
+}
+
+element {
+  border: 0 0 1px 0;
+  padding: 10px;
+}
+element selected {
+  //background-color: #2e343f;
+  //background-color: hsla(180deg, 15%, 60%, 1);
+  background-color: #8ca0aa;
+}
+
+element-text selected {
+  text-color: #282c33dd;
+  highlight: bold;
+}
+
+element-icon {
+  size: 1em;
+  margin: 0 14px 0 0;
+}
