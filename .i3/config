@@ -210,7 +210,7 @@ assign [class="Gimp"] $ws6
 assign [class="^Borderlands"] $ws8
 assign [class="7DaysToDie.x86_64"] $ws8
 assign [class="^Human."] $ws8
-assign [title="^Cyperpunk"] $ws8
+assign [title="^Cyberpunk"] $ws8
 # assign [instance="(?i)spotify"] $ws3 # not working
 
 # Open specific applications in floating mode

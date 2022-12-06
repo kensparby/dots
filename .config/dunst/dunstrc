@@ -1,0 +1,70 @@
+# See dunst (5) for all configuration options
+# Or see /etc/dunst/dunstrc.pacnew for an example config and explanations
+
+[global]
+    # Display
+    monitor = 1
+    follow = none
+
+    # Window
+    width = (400, 600)
+    height = 300
+    origin = top-left
+    offset = 30x30
+    alignment = left
+    show_age_threshold = 60
+
+    # Frame
+    frame_width = 3
+    frame_color = "#546e7a"
+    padding = 20
+    horizontal_padding = 40
+    text_icon_padding = 20
+
+    notification_limit = 4
+
+    progress_bar = true
+    progress_bar_height = 20
+    progress_bar_frame_width = 0
+    progress_bar_max_width = 600
+
+    # Text
+   font = Noto Sans 10
+   markup = full
+   format = "<b>%s</b>     %p\n%b"
+   #format = "%s %p\n%b"
+   ellipsize = middle
+
+   # Icons
+   icon_position = left
+   min_icon_size = 40
+   max_icon_size = 60
+
+   # Misc/Advanced
+   corner_radius = 8
+   idle_threshold = 120
+
+   # General
+
+   separator_height = 15
+   separator_color = auto
+
+[urgency_low]
+    background = "#2e3440"
+    foreground = "#81a1c1"
+    highlight = "#81a1c1"
+    timeout = 10
+
+[urgency_normal]
+    background = "#272727"
+    foreground = "#81a1c1"
+    highlight = "#81a1c1"
+    timeout = 10
+
+[urgency_critical]
+    background = "#572727"
+    foreground = "#88c0d0"
+    highlight = "#bf616a"
+    frame_color = "#bf616a"
+    timeout = 0
+    format = "<b>%s     %p\n%b</b>"
