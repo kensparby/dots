@@ -22,4 +22,4 @@ NOW=$(echo $NOW | jq '.properties.timeseries[0].data.instant.details.air_tempera
 #     "rainshowersandthunder") ICON=
 # esac
 
-echo "$NOW C°"
+echo "$NOW °C"
