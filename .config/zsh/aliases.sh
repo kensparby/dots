@@ -79,7 +79,7 @@ alias updmirrors="sudo pacman-mirrors --fasttrack"
 # alias cssreset="wget https://meyerweb.com/eric/tools/css/reset/reset.css"
 alias cssreset="cp $HOME/dev/modernreset.css ./reset.css"
 
-alias utilcss="cp $HOME/dev/utilities.css ./u.css"
+alias utilcss="cp $HOME/dev/utilities.css ./util.css"
 
 cssnormalize() {
     if [ "$1" = "mini" ]; then
@@ -114,4 +114,8 @@ imagine() {
 unalias md
 md() {
     pandoc "$1" | lynx -stdin;
+}
+
+mktex() {
+    latexmk -pdfxe -pvc "$1"
 }

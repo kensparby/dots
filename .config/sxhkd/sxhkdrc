@@ -75,14 +75,23 @@ super + alt + Delete
 # Binds media keys to Spotify and Shift+media keys to playerctl
 # This is needed because playerctl can control video on websites while Spotify is playing
 
-XF86AudioNext
-    sp next
+# XF86AudioNext
+#     sp next
 
-XF86AudioPrev
-    sp prev
+# XF86AudioPrev
+#     sp prev
 
-XF86AudioPlay
-    sp play
+# XF86AudioPlay
+#     sp play
+
+shift + super + comma
+      sp prev
+
+shift + super + period
+      sp next
+
+shift + super + slash
+      sp play
 
 shift + XF86AudioNext
       playerctl next
