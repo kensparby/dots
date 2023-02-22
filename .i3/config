@@ -204,6 +204,7 @@ assign [class="retroarch"] $ws8
 assign [class="Emacs"] $ws3
 assign [class="Descenders.x86_64"] $ws8
 assign [class="csgo_linux64"] $ws8
+assign [title="^Counter Strike"] $ws8
 assign [title="(?i)truck simulator"] $ws8
 assign [class="^steam_app_"] $ws8
 assign [class="Gimp"] $ws6
