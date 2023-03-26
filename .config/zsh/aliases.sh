@@ -119,3 +119,12 @@ md() {
 mktex() {
     latexmk -pdfxe -pvc "$1"
 }
+
+invoke() {
+    source $HOME/invokeai/.venv/bin/activate && \
+    invokeai --web
+}
+
+a111() {
+    $HOME/stable-diffusion-webui/webui.sh --api --xformers
+}

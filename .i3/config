@@ -245,6 +245,7 @@ for_window [class="Xfburn"] floating enable
 for_window [class="ncmpcpp"] floating enable border pixel 1, resize set 1170 850, move position center
 for_window [class="Gcolor3"] floating enable
 for_window [class="Steam"] floating enable
+for_window [class="steamwebhelper"] floating enable
 
 no_focus [class="(?i)steam"]
 
