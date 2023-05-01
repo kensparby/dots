@@ -28,6 +28,8 @@
     progress_bar_frame_width = 0
     progress_bar_max_width = 600
 
+    transparency = 20
+
     # Text
    font = Noto Sans 10
    markup = full

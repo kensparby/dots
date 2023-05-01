@@ -125,6 +125,6 @@ invoke() {
     invokeai --web
 }
 
-a111() {
+a1111() {
     $HOME/stable-diffusion-webui/webui.sh --api --xformers
 }

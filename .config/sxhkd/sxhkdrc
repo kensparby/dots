@@ -43,6 +43,10 @@ super + alt + p
 super + alt + s
       scrot -s '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f'
 
+# Turn on Wiz lights
+super + alt + l
+      lights on
+
 # MPC/MPD controls
 super + comma
       mpc prev

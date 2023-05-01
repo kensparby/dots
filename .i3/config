@@ -197,7 +197,7 @@ assign [class="Cities.x64"] $ws8
 assign [class="(?i)Spotify"] $ws4
 assign [class="nebuchadnezzar"] $ws8
 assign [class="(?i)paradox launcher"] $ws8
-assign [title="Cities: Skylines"] $ws8
+assign [title="^Cities: Skylines"] $ws8
 assign [class="Mini Metro"] $ws8
 assign [class="ck3"] $ws8
 assign [class="retroarch"] $ws8
@@ -205,14 +205,15 @@ assign [class="Emacs"] $ws3
 assign [class="Descenders.x86_64"] $ws8
 assign [class="csgo_linux64"] $ws8
 assign [title="^Counter Strike"] $ws8
-assign [title="(?i)truck simulator"] $ws8
+assign [title="^(i)american truck simulator"] $ws8
+assign [title="^(i)euro truck simulator"] $ws8
 assign [class="^steam_app_"] $ws8
 assign [class="Gimp"] $ws6
 assign [class="^Borderlands"] $ws8
 assign [class="7DaysToDie.x86_64"] $ws8
 assign [class="^Human."] $ws8
 assign [title="^Cyberpunk"] $ws8
-assign [title="EVE"] $ws8
+assign [title="^EVE"] $ws8
 # assign [instance="(?i)spotify"] $ws3 # not working
 
 # Open specific applications in floating mode
@@ -245,7 +246,8 @@ for_window [class="Xfburn"] floating enable
 for_window [class="ncmpcpp"] floating enable border pixel 1, resize set 1170 850, move position center
 for_window [class="Gcolor3"] floating enable
 for_window [class="Steam"] floating enable
-for_window [class="steamwebhelper"] floating enable
+#for_window [class="steamwebhelper"] floating enable
+for_window [class="^steam_app_"] move --no-auto-back-and-forth to workspace $ws8
 
 no_focus [class="(?i)steam"]
 

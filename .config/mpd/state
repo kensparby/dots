@@ -1,8 +1,8 @@
-sw_volume: 34
+sw_volume: 31
 audio_device_state:1:pulse audio
-state: play
-current: 305
-time: 47.103000
+state: pause
+current: 101
+time: 312.436000
 random: 1
 repeat: 1
 single: 0
@@ -11,481 +11,133 @@ crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:synthwave/A Space Love Adventure/Limit Break/A Space Love Adventure - Lone Wolf.mp3
-1:synthwave/A.L.I.S.O.N - Continuity.mp3
-2:synthwave/A.L.I.S.O.N - Crystal Bloom.mp3
-3:synthwave/A.L.I.S.O.N - Live Forever.mp3
-4:synthwave/A.L.I.S.O.N/Signal Flow/A.L.I.S.O.N - Input.mp3
-5:synthwave/A.L.I.S.O.N/Signal Flow/A.L.I.S.O.N - Oscillate.mp3
-6:synthwave/A.L.I.S.O.N/Signal Flow/A.L.I.S.O.N - Subtract.mp3
-7:synthwave/A.L.I.S.O.N/Signal Flow/A.L.I.S.O.N - Amplify.mp3
-8:synthwave/A.L.I.S.O.N/Signal Flow/A.L.I.S.O.N - Output.mp3
-9:synthwave/A.L.I.S.O.N/Signal Flow/A.L.I.S.O.N - Overflow.mp3
-10:synthwave/A.L.I.S.O.N - Warm.mp3
-11:synthwave/A.L.I.S.O.N - Space Echo.mp3
-12:synthwave/A.L.I.S.O.N - Golden Dust.mp3
-13:synthwave/A.L.I.S.O.N - Passenger.mp3
-14:synthwave/A.L.I.S.O.N - Gaze (Alternative Mix).mp3
-15:synthwave/A.L.I.S.O.N - Pléiades.mp3
-16:synthwave/A.L.I.S.O.N/Stargazing|Take Off!/A.L.I.S.O.N - Stargazing.mp3
-17:synthwave/A.L.I.S.O.N/Stargazing|Take Off!/A.L.I.S.O.N - Take Off!.mp3
-18:synthwave/A.L.I.S.O.N - always in my dreams.mp3
-19:synthwave/A.L.I.S.O.N & Krosia - Spirit.mp3
-20:synthwave/A.L.I.S.O.N - Omni (feat. oDDling).mp3
-21:synthwave/A.L.I.S.O.N & Rosentwig - Retrovailles.mp3
-22:synthwave/A.L.I.S.O.N - Echo Chambers (feat. Voyager).mp3
-23:synthwave/admo/Atlantic Drift EP/ADMO - Better Days.mp3
-24:synthwave/admo/Atlantic Drift EP/ADMO - Atlantic Drift.mp3
-25:synthwave/admo/Atlantic Drift EP/ADMO - Polygon.mp3
-26:synthwave/admo/Zero Wave LP/ADMO - Coastal Drive.mp3
-27:synthwave/admo/Zero Wave LP/ADMO - Channel 707.mp3
-28:synthwave/admo/Zero Wave LP/ADMO - Prism.mp3
-29:synthwave/ALPHA ROOM - Darker Than White.mp3
-30:synthwave/Alpha Room - Since 92 (feat. Zane Alexander).mp3
-31:synthwave/Astral Throb - Running.mp3
-32:synthwave/AURAGRAPH - Precursor.mp3
-33:synthwave/Baton/Baton - Horizon.mp3
-34:synthwave/Baton/NewEra/Baton - Neon Ride.mp3
-35:synthwave/Baton/NewEra/Baton - 2049.mp3
-36:synthwave/Baton/NewEra/Baton - Miracle.mp3
-37:synthwave/Baton/NewEra/Baton - Surfing through stars.mp3
-38:synthwave/Baton - Escape.mp3
-39:synthwave/BVSMV - Parallels.mp3
-40:synthwave/Cats Under Synthesizers - Tokyo.mp3
-41:synthwave/count.00 - Entropy.mp3
-42:synthwave/Dan Mason ダン·メイソン - Nothing Matters (Intrumental).mp3
-43:synthwave/Dead Roses Society - Runes.mp3
-44:synthwave/Decisive Koala/Decisive Koala - Opiate.mp3
-45:synthwave/Decisive Koala/Decisive Koala - Persephone.mp3
-46:synthwave/Decisive Koala/Decisive Koala - Processing.mp3
-47:synthwave/Decisive Koala/Decisive Koala - Locate Memories.mp3
-48:synthwave/Decisive Koala/Decisive Koala - Solstice.mp3
-49:synthwave/Decisive Koala/Decisive Koala - Celestial.mp3
-50:synthwave/Decisive Koala/Decisive Koala - Moonlight Beach.mp3
-51:synthwave/Decisive Koala/Decisive Koala - Tropical Views.mp3
-52:synthwave/Decisive Koala/Cyclic Model/Decisive Koala - Aeon Zenith.mp3
-53:synthwave/Decisive Koala/Cyclic Model/Decisive Koala - Isochrony.mp3
-54:synthwave/Decisive Koala/Cyclic Model/Decisive Koala - Meridian.mp3
-55:synthwave/Decisive Koala/Cyclic Model/Decisive Koala - Vast.mp3
-56:synthwave/Decisive Koala/Cyclic Model/Decisive Koala - Astral.mp3
-57:synthwave/Decisive Koala/Cyclic Model/Decisive Koala - Lush.mp3
-58:synthwave/Decisive Koala/Cyclic Model/Decisive Koala - Nebulous.mp3
-59:synthwave/Decisive Koala/Cyclic Model/Decisive Koala - Dionysian.mp3
-60:synthwave/Decisive Koala/Moon Roof/Decisive Koala - Glass Off.mp3
-61:synthwave/Decisive Koala/Moon Roof/Decisive Koala - Moon Baithing.mp3
-62:synthwave/Decisive Koala/Moon Roof/Decisive Koala - Aqueous.mp3
-63:synthwave/Decisive Koala/Moon Roof/Decisive Koala - Broken Shapes.mp3
-64:synthwave/Decisive Koala/Moon Roof/Decisive Koala - Exhale.mp3
-65:synthwave/Decisive Koala/Moon Roof/Decisive Koala - Dissonance.mp3
-66:synthwave/Decisive Koala/Motion Mirage/Decisive Koala - Sunset.mp3
-67:synthwave/Decisive Koala/Motion Mirage/Decisive Koala - Esplanade.mp3
-68:synthwave/Decisive Koala/Motion Mirage/Decisive Koala - Mainline.mp3
-69:synthwave/Decisive Koala/Motion Mirage/Decisive Koala - Ethereal.mp3
-70:synthwave/Decisive Koala/Motion Mirage/Decisive Koala - Cascading Lights.mp3
-71:synthwave/Decisive Koala/Motion Mirage/Decisive Koala - Liquid.mp3
-72:synthwave/Decisive Koala/Motion Mirage/Decisive Koala - Wandering Stars.mp3
-73:synthwave/Decisive Koala/Motion Mirage/Decisive Koala - 8 Bit Intermittent Clouds.mp3
-74:synthwave/Decisive Koala/Motion Mirage/Decisive Koala - Glimmer.mp3
-75:synthwave/Decisive Koala/Motion Mirage/Decisive Koala - Audio Galactica.mp3
-76:synthwave/Decisive Koala/Subtropical Climates/Decisive Koala - Release.mp3
-77:synthwave/Decisive Koala/Subtropical Climates/Decisive Koala - A Beach in my Mind.mp3
-78:synthwave/Decisive Koala/Subtropical Climates/Decisive Koala - Radiant.mp3
-79:synthwave/Decisive Koala/Subtropical Climates/Decisive Koala - Shade.mp3
-80:synthwave/Decisive Koala/Subtropical Climates/Decisive Koala - Listening to Raindrops.mp3
-81:synthwave/Decisive Koala/Decisive Koala, Alpha Room - Decisive Koala, Alpha Room - Guiding Star (w_ Alpha Room).mp3
-82:synthwave/Decisive Koala/Decisive Koala, Star Madman - Future Roads (Instrumental).mp3
-83:synthwave/Dellby Music - Project Retro, Vol. 2 (New Horizon).mp3
-84:synthwave/DEPARTURE/DEPARTURE - Dream.mp3
-85:synthwave/DEPARTURE/DEPARTURE - Chord Palace.mp3
-86:synthwave/DEPARTURE/DEPARTURE - Coastal View.mp3
-87:synthwave/DEPARTURE/DEPARTURE - Velocity.mp3
-88:synthwave/DEPARTURE/DEPARTURE - Absent.mp3
-89:synthwave/DEPARTURE/DEPARTURE - D.I.V.I.N.E.mp3
-90:synthwave/DEPARTURE/DEPARTURE - Ocean Breeze.mp3
-91:synthwave/DEPARTURE/DEPARTURE - Imagine.mp3
-92:synthwave/Descrai - Rising Band.mp3
-93:synthwave/Downtown Binary - Midnight Tokyo.mp3
-94:Duett/Duett - Channel.mp3
-95:synthwave/dusk tears - cloudfarer.mp3
-96:synthwave/dusk tears - cruising speed.mp3
-97:synthwave/Eagle Eyed Tiger & oDDling - Interference.mp3
-98:synthwave/ED-209 - Polarize.mp3
-99:synthwave/ED-209 - Chromatic Recall.mp3
-100:synthwave/ED-209 - Polygon.mp3
-101:synthwave/ED-209 - Serenity.mp3
-102:synthwave/ED-209 - Overflow.mp3
-103:synthwave/ED-209 - Tranquility.mp3
-104:synthwave/ED-209 - Cascade.mp3
-105:synthwave/ED-209 - Ocean Drive.mp3
-106:synthwave/ED-209 - Garden.mp3
-107:synthwave/Emil Rottmayer/Emil Rottmayer - Connect.mp3
-108:synthwave/Emil Rottmayer/Emil Rottmayer - Simulate.mp3
-109:synthwave/Emil Rottmayer/Emil Rottmayer - Reflect.mp3
-110:synthwave/Emil Rottmayer/Deflection/Emil Rottmayer - Deflection.mp3
-111:synthwave/Emil Rottmayer/Deflection/Emil Rottmayer - Deep Water.mp3
-112:synthwave/Emil Rottmayer/Deflection/Emil Rottmayer - Deflection ( Reworked ).mp3
-113:synthwave/Emil Rottmayer/Descend/Emil Rottmayer - Descend.mp3
-114:synthwave/Emil Rottmayer/Descend/Emil Rottmayer - F.A.D.E.mp3
-115:synthwave/Emil Rottmayer/Descend/Emil Rottmayer - S.O.L.O.mp3
-116:synthwave/Emil Rottmayer/Descend/Emil Rottmayer - AUDIA.mp3
-117:synthwave/Emil Rottmayer/Descend/Emil Rottmayer - Distraction.mp3
-118:synthwave/Emil Rottmayer/Descend/Emil Rottmayer - T.I.M.E (Part 2).mp3
-119:synthwave/Emil Rottmayer/Descend/Emil Rottmayer - L.I.F.T.mp3
-120:synthwave/Emil Rottmayer/Descend/Emil Rottmayer - K.E.Y.S.mp3
-121:synthwave/Emil Rottmayer/Descend/Emil Rottmayer - W.A.V.E (Bonus Track).mp3
-122:synthwave/Emil Rottmayer/Descend/Emil Rottmayer - Endura (Bonus Track).mp3
-123:synthwave/Emil Rottmayer/Descend/Emil Rottmayer - Mega (Bonus Track).mp3
-124:synthwave/Emil Rottmayer/Descend/Emil Rottmayer - Limit (Bonus Track).mp3
-125:synthwave/Emil Rottmayer/Descend/Emil Rottmayer - T.I.M.E (Bonus Track).mp3
-126:synthwave/Emil Rottmayer/Detached EP/Emil Rottmayer - Detached.mp3
-127:synthwave/Emil Rottmayer/Detached EP/Emil Rottmayer - Vision.mp3
-128:synthwave/Emil Rottmayer/Detached EP/Emil Rottmayer - Farout.mp3
-129:synthwave/Emil Rottmayer/Detached EP/Emil Rottmayer - P.H.A.Z.E.mp3
-130:synthwave/Emil Rottmayer/Detached EP/Emil Rottmayer - W.A.V.E.mp3
-131:synthwave/Emil Rottmayer/Detached EP/Emil Rottmayer - Mega.mp3
-132:synthwave/Emil Rottmayer/Detached EP/Emil Rottmayer - Limit.mp3
-133:synthwave/Emil Rottmayer/Detached EP/Emil Rottmayer - Open.mp3
-134:synthwave/Emil Rottmayer/Reset|Momentum/Emil Rottmayer - Reset.mp3
-135:synthwave/Emil Rottmayer/Reset|Momentum/Emil Rottmayer - Momentum.mp3
-136:synthwave/Emil Rottmayer - Sixty-Three.mp3
-137:synthwave/Evertt - Illusion.mp3
-138:synthwave/Feature Phone/Feature Phone - Tangent Plane.mp3
-139:synthwave/Feature Phone/Feature Phone - Sunsail.mp3
-140:synthwave/Feature Phone/Feature Phone - Night Visions.mp3
-141:synthwave/Feature Phone/Times Infinity/Feature Phone - Entry.mp3
-142:synthwave/Feature Phone/Times Infinity/Feature Phone - 3 Why Oh You.mp3
-143:synthwave/Feature Phone/Times Infinity/Feature Phone - Montura.mp3
-144:synthwave/Feature Phone/Times Infinity/Feature Phone - Sunrider Inc..mp3
-145:synthwave/Feature Phone/Times Infinity/Feature Phone - Rays.mp3
-146:synthwave/Florida Skyline - Literally Chill.mp3
-147:synthwave/Florida Skyline - Blueberry.mp3
-148:synthwave/FM-84/Atlas/FM-84 - Tears.mp3
-149:synthwave/FM-84/Atlas/FM-84 - Chasing Yesterday.mp3
-150:synthwave/FM-84/Atlas/FM-84 - Arcade Summer.mp3
-151:synthwave/Foewi - Glass.mp3
-152:synthwave/Foewi - Traffic.mp3
-153:synthwave/Forhill/Forhill - Flicker.mp3
-154:synthwave/Forhill - Return.mp3
-155:synthwave/Forhill - Outlines.mp3
-156:synthwave/Forhill - Closer.mp3
-157:synthwave/Forhill - Iris.mp3
-158:synthwave/Forhill/Forhill - Refractions.mp3
-159:synthwave/Forhill/Searching/Forhill - Searching.mp3
-160:synthwave/Forhill/Searching/Forhill - Sinking.mp3
-161:synthwave/Forhill/Searching/Forhill - Apparition.mp3
-162:synthwave/Forhill/Forhill & oDDling - Supernal.mp3
-163:synthwave/Forhill/Forhill & VIQ - Arrival.mp3
-164:synthwave/Forhill & VIQ - Eventide.mp3
-165:synthwave/Forhill/Forhill - Currents.mp3
-166:synthwave/Forhill/Searching/Forhill - Searching (YOUTH 83 Remix).mp3
-167:synthwave/Fractal Man - Passageways (feat. Forhill).mp3
-168:synthwave/FRM - Endless Liner.mp3
-169:synthwave/FRM - Reunited.mp3
-170:synthwave/Fujii - Fredward Redde.mp3
-171:synthwave/Gibarian - Carry.mp3
-172:synthwave/Gibarian - Chartreuse.mp3
-173:synthwave/Gibarian - Halcyon.mp3
-174:synthwave/GRAEDA - Interval.mp3
-175:synthwave/Hello Meteor - Aqualotic.mp3
-176:synthwave/Hello Meteor - Coral Blush.mp3
-177:synthwave/Hello Meteor/Hello Meteor - Breeze Bay.mp3
-178:synthwave/Hello Meteor - Glass Palms.mp3
-179:synthwave/Home - We're Finally Landing.mp3
-180:synthwave/Home - Before the Night.mp3
-181:synthwave/Home - If I'm Wrong.mp3
-182:synthwave/Home - Sun.mp3
-183:synthwave/Home - Dusk.mp3
-184:synthwave/Home - Flood.mp3
-185:synthwave/Home - Fortunes.mp3
-186:synthwave/Home - Resonance.mp3
-187:synthwave/Home - Half Moon.mp3
-188:synthwave/Home - Bermuda VCO.mp3
-189:synthwave/Hotel Pools/Palmscapes/Hotel Pools - Vacation.mp3
-190:synthwave/Hotel Pools/Palmscapes/Hotel Pools - Oceanside.mp3
-191:synthwave/Hotel Pools/Palmscapes/Hotel Pools - Hideaway feat. Krosia.mp3
-192:synthwave/Hotel Pools/Palmscapes/Hotel Pools - Waves.mp3
-193:synthwave/Hotel Pools/Palmscapes/Hotel Pools - Splash feat. VIQ.mp3
-194:synthwave/Hotel Pools/Palmscapes/Hotel Pools - Bonfire feat. Decisive Koala.mp3
-195:synthwave/Hotel Pools/Palmscapes/Hotel Pools - Nowtro.mp3
-196:synthwave/Hotel Pools/Palmscapes/Hotel Pools - Hunny.mp3
-197:synthwave/Hotel Pools/Palmscapes/Hotel Pools - Coco feat. Forhill.mp3
-198:synthwave/Hotel Pools/Palmscapes/Hotel Pools - Cherry feat. Upusen.mp3
-199:synthwave/Hotel Pools/Palmscapes/Hotel Pools - Genesis.mp3
-200:synthwave/Hotel Pools/Palmscapes/Hotel Pools - Polaris feat. Echosoft.mp3
-201:synthwave/Hotel Pools/Palmscapes/Hotel Pools - Crush.mp3
-202:synthwave/Hotel Pools/Hotel Pools - Highlights.mp3
-203:synthwave/Hotel Pools - Stardust.mp3
-204:synthwave/Hotel Pools - Melt.mp3
-205:synthwave/Hotel Pools - Coast.mp3
-206:synthwave/Hotel Pools - Ultraviolet.mp3
-207:synthwave/Hotel Pools - Eclipse.mp3
-208:synthwave/Hotel Pools - Phase.mp3
-209:synthwave/Hotel Pools - Interlude.mp3
-210:synthwave/Hotel Pools - Bedrock.mp3
-211:synthwave/Hotel Pools - Horizon.mp3
-212:synthwave/Hotel Pools - Dissolve.mp3
-213:synthwave/Hotel Pools - Nightshade.mp3
-214:synthwave/Hotel Pools - Daze.mp3
-215:synthwave/Hotel Pools - Glow.mp3
-216:synthwave/Hotel Pools - Mirage.mp3
-217:synthwave/Hotel Pools - Sunrise.mp3
-218:synthwave/Hotel Pools - Crashing.mp3
-219:synthwave/Hotel Pools - Seaglass.mp3
-220:synthwave/Hotel Pools - Pacific.mp3
-221:synthwave/Hotel Pools - Fields.mp3
-222:synthwave/Hotel Pools - Drift (feat. A.L.I.S.O.N).mp3
-223:synthwave/Hotel Pools - Dawn (feat. Krosia).mp3
-224:synthwave/Hotel Pools - Parallel (feat. oDDling).mp3
-225:synthwave/Halfway (feat. Unfound).mp3
-226:synthwave/HRMNY AVE - Day Begins.mp3
-227:synthwave/IVemDuv - Exosphere.mp3
-228:synthwave/iZZi - neon.mp3
-229:synthwave/Jasper De Ceuster - Distant.mp3
-230:synthwave/Jasper De Ceuster - Small shapes.mp3
-231:synthwave/Jasper De Ceuster - Skyline.mp3
-232:synthwave/Jasper De Ceuster - Infinite.mp3
-233:synthwave/Jasper De Ceuster - Polygon.mp3
-234:synthwave/Jasper De Ceuster - Parallels.mp3
-235:synthwave/Jasper De Ceuster - Dusk.mp3
-236:synthwave/Nightflyer/Jinx - Solace (Nightflyer Mix)/Jinx - Solace (Nightflyer Mix).mp3
-237:synthwave/Nightflyer/Jinx - Solace (Nightflyer Mix)/Jinx - Solace (Nightflyer Chill Mix) [Bonus].mp3
-238:synthwave/John Dunder - Chasing Dawn.mp3
-239:jp.landing/19-20/jp.landing - Depart.mp3
-240:jp.landing/19-20/jp.landing - Hidden.mp3
-241:synthwave/Kalax/Ill (The Instrumentals)/Kalax - Let Go (Instrumental).mp3
-242:synthwave/Kalax/Ill (The Instrumentals)/Kalax - Not Alone (Instrumental).mp3
-243:synthwave/Kalax/Ill (The Instrumentals)/Kalax - Out of Control (Instrumental).mp3
-244:synthwave/Kalax/Ill (The Instrumentals)/Kalax - Signs (Instrumental).mp3
-245:synthwave/Kalax/Ill (The Instrumentals)/Kalax - Out of Time (Instrumental).mp3
-246:synthwave/Kalax/Ill (The Instrumentals)/Kalax - Calling (Instrumental).mp3
-247:synthwave/Kalax/Ill (The Instrumentals)/Metropolis/Kalax - Bright City Lights.mp3
-248:synthwave/Kiile/Kiile - The Dance.mp3
-249:synthwave/Kiile/Kiile - Deja Vu.mp3
-250:synthwave/Kiile/Kiile - Only in Movies.mp3
-251:synthwave/Kiile/Kiile - The Reveal.mp3
-252:synthwave/Kiile/Kiile & Marvel83 - Forever You.mp3
-253:synthwave/Kiile/Kiile & Marvel83 - Mirage.mp3
-254:synthwave/KING PALM/KING PALM - Escape.mp3
-255:synthwave/KING PALM - Runway.mp3
-256:synthwave/Krosia - Céleste.mp3
-257:synthwave/Krosia - Dive.mp3
-258:synthwave/Krosia - Jewels.mp3
-259:synthwave/Krosia - Slight Days.mp3
-260:synthwave/Krosia - Sunlight.mp3
-261:synthwave/Krosia - Night Sky (feat. A.L.I.S.O.N).mp3
-262:synthwave/L'Avenue - Sundown.mp3
-263:synthwave/Lazerhawk/Dreamrider/Lazerhawk - Cruise.mp3
-264:synthwave/Lazerhawk/Dreamrider/Lazerhawk - Somnus.mp3
-265:synthwave/Lazerhawk/Dreamrider/Lazerhawk - Cool Breeze.mp3
-266:synthwave/Lazerhawk/Dreamrider/Lazerhawk - REM.mp3
-267:synthwave/Lazerhawk/Dreamrider/Lazerhawk - Dream Within a Dream.mp3
-268:synthwave/Lazerhawk/Dreamrider/Lazerhawk - Oneiric.mp3
-269:synthwave/Lazerhawk/Dreamrider/Lazerhawk - Awakening.mp3
-270:synthwave/Lazerhawk/Redline/Lazerhawk - Interstellar.mp3
-271:synthwave/Le Caire - Vega - HQ Version.mp3
-272:synthwave/LÜNE/LÜNE - Minimonde.mp3
-273:synthwave/LÜNE/Souvenirs/LÜNE - Forêt de Crystal.mp3
-274:synthwave/LÜNE/Souvenirs/LÜNE - Absences.mp3
-275:synthwave/LÜNE/Souvenirs/LÜNE - Luminescence.mp3
-276:synthwave/LÜNE/Rêve Lucide/LÜNE - Soleil Bleu.mp3
-277:synthwave/LÜNE/Rêve Lucide/LÜNE - Cerise De L'espace.mp3
-278:synthwave/LÜNE/Rêve Lucide/LÜNE - Rêve Lucide.mp3
-279:synthwave/Maarez - Luna.mp3
-280:synthwave/Mark Dee/Mark Dee - Sunset Drive.mp3
-281:synthwave/Mark Dee/Mark Dee - Memories.mp3
-282:synthwave/MAWORLD/MAWORLD & DreamStation1986 - Starchild.mp3
-283:synthwave/Memorex Memories - Bleeding Rainbow.mp3
-284:synthwave/Metatryptic - Signs (Versión Extendida).mp3
-285:synthwave/The Midnight/Endless Summer/The Midnight - The Equaliser (Not Alone).mp3
-286:synthwave/Monolism - Pasts.mp3
-287:synthwave/monoscape/Halcyon Bloom/monoscape - Autophobia.mp3
-288:synthwave/monoscape/Halcyon Bloom/monoscape - Voyage.mp3
-289:synthwave/monoscape/monoscape - Autumn Breeze.mp3
-290:synthwave/monoscape/monoscape - Dream of Spring.mp3
-291:synthwave/monoscape/monoscape - Hyperdive.mp3
-292:synthwave/monoscape/monoscape - Afterthought.mp3
-293:synthwave/monoscape/monoscape - Youth.mp3
-294:synthwave/monoscape/monoscape - Elysian Valley.mp3
-295:synthwave/monoscape/Halcyon Bloom/monoscape - Flight to the Past.mp3
-296:synthwave/monoscape/Halcyon Bloom/monoscape - Introspect.mp3
-297:synthwave/monoscape/Halcyon Bloom/monoscape - Chimera.mp3
-298:synthwave/monoscape/Halcyon Bloom/monoscape - Party for One.mp3
-299:synthwave/monoscape/Halcyon Bloom/monoscape - Places We Could Go.mp3
-300:synthwave/monoscape/Halcyon Bloom/monoscape - Halcyon Bloom.mp3
-301:synthwave/Morgan Willis - Never Forget.mp3
-302:synthwave/NiElsir - Akrasia.mp3
-303:synthwave/NiElsir - Aurorean.mp3
-304:synthwave/NiElsir - Copiloto.mp3
-305:synthwave/NiElsir - Skysix.mp3
-306:synthwave/NiElsir - Theta.mp3
-307:synthwave/Nightflyer/Nightflyer - Northern Skylines.mp3
-308:synthwave/Nightflyer/Nightflyer - gradience.mp3
-309:synthwave/Nightflyer/Nightflyer - Paradigms.mp3
-310:synthwave/Nightflyer/Nightflyer - Sanctuary.mp3
-311:synthwave/Nightflyer/Nightflyer - Dreamshore.mp3
-312:synthwave/Nightflyer/Contours/Nightflyer - Eternal Horizon.mp3
-313:synthwave/Nightflyer/Escapism/Nightflyer - Escapism.mp3
-314:synthwave/Nightflyer/Nightflyer - Dimensions.mp3
-315:synthwave/Nightflyer/Nightflyer - Palm Springs.mp3
-316:synthwave/Nightflyer/Daydreams EP/Nightflyer - Summer's End.mp3
-317:synthwave/Nightflyer/Daydreams EP/Nightflyer - Daydreams.mp3
-318:synthwave/Nightflyer/Daydreams EP/Nightflyer - Neon Reflections.mp3
-319:synthwave/Nightflyer/Infinite Waves/Nightflyer - Infinite Waves.mp3
-320:synthwave/Nightflyer/Infinite Waves/Nightflyer - Second Sun.mp3
-321:synthwave/Nightflyer/Infinite Waves/Nightflyer - Finesse.mp3
-322:synthwave/Nightflyer/Infinite Waves/Nightflyer - Aurora's Edge.mp3
-323:synthwave/Nightflyer/Infinite Waves/Nightflyer - In My Heart (Remix).mp3
-324:synthwave/Nightflyer/Perception/Nightflyer - Perception.mp3
-325:synthwave/Nightflyer/Nightflyer & MEGAS - Hyperplane.mp3
-326:synthwave/NØVMBR - Kids.mp3
-327:synthwave/NØVMBR - Credits.mp3
-328:synthwave/NØVMBR - Urban.mp3
-329:synthwave/oDDling/oDDling - Solstice.mp3
-330:synthwave/oDDling/oDDling - Anomaly.mp3
-331:synthwave/oDDling/One (Deluxe Edition)/oDDling - Ascend.mp3
-332:synthwave/oDDling/One (Deluxe Edition)/oDDling - Illusory.mp3
-333:synthwave/oDDling/One (Deluxe Edition)/oDDling - Paradox.mp3
-334:synthwave/oDDling/One (Deluxe Edition)/oDDling - Aurora.mp3
-335:synthwave/oDDling/One (Deluxe Edition)/oDDling - Simulated Stars.mp3
-336:synthwave/oDDling/One (Deluxe Edition)/oDDling - Android Amour.mp3
-337:synthwave/oDDling/One (Deluxe Edition)/oDDling - Early Bird.mp3
-338:synthwave/oDDling/One (Deluxe Edition)/oDDling - Reverie.mp3
-339:synthwave/oDDling/One (Deluxe Edition)/oDDling - Neon Nights.mp3
-340:synthwave/oDDling/One (Deluxe Edition)/oDDling - Void.mp3
-341:synthwave/oDDling/Phosphenes/oDDling - Illume.mp3
-342:synthwave/oDDling/Phosphenes/oDDling - Collimate.mp3
-343:synthwave/oDDling/Phosphenes/oDDling - Specular.mp3
-344:synthwave/oDDling/Phosphenes/oDDling - Phosphenes.mp3
-345:synthwave/oDDling/Phosphenes/oDDling - Refraction.mp3
-346:synthwave/oDDling/Phosphenes/oDDling - Iridescence.mp3
-347:synthwave/oDDling - Divide.mp3
-348:synthwave/Orbital Hikers - Deep Vision.mp3
-349:synthwave/Orbital Hikers - Vertex.mp3
-350:synthwave/P O N G M A N - Apex.mp3
-351:synthwave/Peregrihn - Isles.mp3
-352:synthwave/Peregrihn - Ancient Wheels Are Turning.mp3
-353:synthwave/Photon - Blur.mp3
-354:synthwave/Photon - Cosmos.mp3
-355:synthwave/Photon - Aura.mp3
-356:synthwave/Photon - Empty.mp3
-357:synthwave/Photon - Stardust.mp3
-358:synthwave/Photon - Multiple Ways.mp3
-359:synthwave/Photon - Wonder.mp3
-360:synthwave/Poetically - View Existent.mp3
-361:synthwave/RINGS - NIGHT DRINK.mp3
-362:synthwave/Rivensilvers - Farewells.mp3
-363:synthwave/Rosentwig - Red Moon.mp3
-364:synthwave/Rosentwig - Imagination.mp3
-365:synthwave/Rosentwig - Mind Palace.mp3
-366:synthwave/Rosentwig - Journey.mp3
-367:synthwave/Saffari - 1984.mp3
-368:synthwave/Saint Seduce - 3 A.M..mp3
-369:synthwave/SHAMMY - Koi Pond.mp3
-370:synthwave/SHIKIMO & Gibarian - Above the Clouds.mp3
-371:synthwave/Skykot - Interference.mp3
-372:synthwave/Skykot - Cadence (eclipse mix).mp3
-373:synthwave/Space Sailors - Elysium (ft. o b i o).mp3
-374:synthwave/Sub Morphine - Shoreline.mp3
-375:synthwave/System96 - Heights.mp3
-376:synthwave/System96 - Aperture.mp3
-377:synthwave/System96 - Unbound.mp3
-378:synthwave/System96 - Memories.mp3
-379:synthwave/System96 - Rumors.mp3
-380:synthwave/System96 - Fugue State.mp3
-381:synthwave/System96 - System Boot.mp3
-382:synthwave/System96 - Passage.mp3
-383:synthwave/System96 - Visionary.mp3
-384:synthwave/System96 - Perception.mp3
-385:synthwave/System96 - Emerald (feat. Lucy In Disguise).mp3
-386:synthwave/T-120 - Vision.mp3
-387:synthwave/Tim Rupp - Pattern.mp3
-388:synthwave/Timecop1983 - It was only a Dream.mp3
-389:synthwave/Unfound - Intercept.mp3
-390:synthwave/Unfound - New World.mp3
-391:synthwave/Unfound - Promenade.mp3
-392:synthwave/Unfound - Without.mp3
-393:synthwave/VIQ/COASTLINE/VIQ - Waves.mp3
-394:synthwave/VIQ/COASTLINE/VIQ - Blue Hour.mp3
-395:synthwave/VIQ/COASTLINE/VIQ - Wasted Days.mp3
-396:synthwave/VIQ/COASTLINE/VIQ - Coastline.mp3
-397:synthwave/VIQ/COASTLINE/VIQ - Glow.mp3
-398:synthwave/VIQ/COASTLINE/VIQ - Hurricane.mp3
-399:synthwave/VIQ/Crystal Shores/VIQ - Vestige.mp3
-400:synthwave/VIQ/Crystal Shores/VIQ - Mirrors.mp3
-401:synthwave/VIQ/Crystal Shores/VIQ - Illusion.mp3
-402:synthwave/VIQ/Crystal Shores/VIQ - Keep Breathing.mp3
-403:synthwave/VIQ/Dune/VIQ - Somewhere.mp3
-404:synthwave/VIQ/Dune/VIQ - Oasis.mp3
-405:synthwave/VIQ/Dune/VIQ - Mirage.mp3
-406:synthwave/VIQ/Flamingo/VIQ - Rise.mp3
-407:synthwave/VIQ/Flamingo/VIQ - Night swim.mp3
-408:synthwave/VIQ/Flamingo/VIQ - Pink morning.mp3
-409:synthwave/VIQ/Last Path/VIQ - Awakening.mp3
-410:synthwave/VIQ/Last Path/VIQ - Journey.mp3
-411:synthwave/VIQ/Last Path/VIQ - Emerald Wind.mp3
-412:synthwave/VIQ/Last Path/VIQ - Exploration.mp3
-413:synthwave/VIQ/Last Path/VIQ - Last Path.mp3
-414:synthwave/VIQ/Last Path/VIQ - Over The Clouds.mp3
-415:synthwave/VIQ/Last Path/VIQ - Pink Lake.mp3
-416:synthwave/VIQ/Last Path/VIQ - Fearless.mp3
-417:synthwave/VIQ/Beautiful Things Have Wings/VIQ - Beautiful Things Have Wings.mp3
-418:synthwave/VIQ/Beautiful Things Have Wings/VIQ - Unnamed Beauty.mp3
-419:synthwave/Volt Age/Volt Age/Volt Age - Volt's Theme.mp3
-420:synthwave/Volt Age/Volt Age/Volt Age - Sensual Overdrive.mp3
-421:synthwave/Volt Age/Volt Age/Volt Age - Half Way.mp3
-422:synthwave/Volt Age/Volt Age/Volt Age - Supreme Delight.mp3
-423:synthwave/Volt Age - Volt's Theme.mp3
-424:synthwave/Voyage/Voyage - Dynamic.mp3
-425:synthwave/Voyage/Voyage - Origin.mp3
-426:synthwave/Voyage/Voyage - Aura.mp3
-427:synthwave/Voyage/Voyage - Paradise.mp3
-428:synthwave/Voyage/Voyage - Allude.mp3
-429:synthwave/Voyage/Voyage - Enter.mp3
-430:synthwave/Voyage/Voyage - Align.mp3
-431:synthwave/Voyage/Voyage - Shift.mp3
-432:synthwave/Voyage/Voyage - Dream State.mp3
-433:synthwave/Voyage/Voyage - Lumen.mp3
-434:synthwave/Voyage/Voyage - Sync.mp3
-435:synthwave/Voyage/Voyage - Time.mp3
-436:synthwave/Voyage/Glow EP/Voyage - Glow.mp3
-437:synthwave/Voyage/Glow EP/Voyage - Astra.mp3
-438:synthwave/Voyage/Glow EP/Voyage - Crystal Sky.mp3
-439:synthwave/VOYAGER/VOYAGER - Expresos Flamingo.mp3
-440:synthwave/VOYAGER/VOYAGER - Intellestelar.mp3
-441:synthwave/VOYAGER/VOYAGER - Oblivion.mp3
-442:synthwave/VOYAGER/VOYAGER - Flutter.mp3
-443:synthwave/VOYAGER/VOYAGER - Reviving.mp3
-444:synthwave/VOYAGER/VOYAGER - Inmersión.mp3
-445:synthwave/VOYAGER/VOYAGER - Ephemeral.mp3
-446:synthwave/VOYAGER/VOYAGER - Traveler Night.mp3
-447:synthwave/VOYAGER/VOYAGER - Endless Mode.mp3
-448:synthwave/VOYAGER/VOYAGER - Voyager.mp3
-449:synthwave/whilefalse - Glide.mp3
-450:synthwave/Zane Alexander/Zane Alexander - Your Convictions Are Your Own.mp3
-451:synthwave/Zane Alexander/A Time Like This/Zane Alexander - Elementary.mp3
-452:synthwave/Zane Alexander/A Time Like This/Zane Alexander - An Equinox.mp3
-453:synthwave/Zane Alexander/A Time Like This/Zane Alexander - Numbers.mp3
-454:synthwave/Zane Alexander/Death by Space/Zane Alexander - Astronaut.mp3
-455:synthwave/Zane Alexander/Death by Space/Zane Alexander - Up (feat. ONLY A.L.E.X).mp3
-456:synthwave/Zane Alexander/Death by Space/Zane Alexander - Air.mp3
-457:synthwave/Zane Alexander/Death by Space/Zane Alexander - It's Lonely Here (ONLY A.L.E.X Interlude).mp3
-458:synthwave/Zane Alexander/Death by Space/Zane Alexander - Orion's Belt.mp3
-459:synthwave/Zane Alexander/Death by Space/Zane Alexander - Blue Star.mp3
-460:synthwave/Zane Alexander/Death by Space/Zane Alexander - UwU OwO.mp3
-461:synthwave/Zane Alexander/Death by Space/Zane Alexander - Granularization.mp3
-462:synthwave/Zane Alexander/Death by Space/Zane Alexander - Zero.mp3
-463:synthwave/Zane Alexander/Death by Space/Zane Alexander - Supermassive.mp3
-464:synthwave/Zane Alexander/Death by Space/Zane Alexander - Exit.mp3
-465:synthwave/Zane Alexander/Zane Alexander - Momentum.mp3
-466:synthwave/Zane Alexander/Zane Alexander - Ampersand.mp3
-467:synthwave/Zane Alexander/Zane Alexander - Horizon 5Am.mp3
-468:synthwave/Zane Alexander/Zane Alexander - Nine.mp3
-469:synthwave/Zane Alexander/Zane Alexander - Float.mp3
-470:synthwave/Zane Alexander/Zane Alexander - HEALTHBAR (ft. Electronic Visions).mp3
-471:synthwave/_憂鬱/_憂鬱/憂鬱 - Sun.mp3
-472:synthwave/_憂鬱/_憂鬱/憂鬱 - Moon.mp3
-473:synthwave/_憂鬱/_憂鬱/憂鬱 & A.L.I.S.O.N - Dive.mp3
-474:synthwave/_憂鬱/_憂鬱/憂鬱 & Aima Lecia - Nü.mp3
-475:synthwave/_憂鬱/_憂鬱/憂鬱 & Hello Meteor - Prime.mp3
-476:synthwave/_憂鬱/_憂鬱/憂鬱 & oDDling - Endurance.mp3
+0:electronica/4lienetic - Faint.mp3
+1:Aether/Aether - Flower In Winter.mp3
+2:Aether/Aether - Dear Lillie.mp3
+3:Aether/Aether - Reawaken.mp3
+4:Aether/Aether - Eidolon.mp3
+5:Aether/Aether - Catharsis.mp3
+6:Aether/Aether & Enzalla - Overture.mp3
+7:Aether/Aether x Pensees - About You.mp3
+8:Aether/Aether & Pensees - Nocturne.mp3
+9:electronica/AK - Discovery.mp3
+10:electronica/AK - It Takes Time.mp3
+11:electronica/AK - City Of Dreams.mp3
+12:electronica/AK - Homebound.mp3
+13:electronica/AK - Gone.mp3
+14:electronica/AK - Standing Together.mp3
+15:electronica/AK & Direct - Sleepless Nights.mp3
+16:electronica/garage/Ambyion - Through the Silence.mp3
+17:electronica/Ambyion & Phelian - Farewell.mp3
+18:electronica/Ampyx - Forever.mp3
+19:electronica/Andy Leech - Shoreline.mp3
+20:electronica/Andy Leech - Thinking Of You.mp3
+21:electronica/Andy Leech & 4lienetic - Nightfall.mp3
+22:electronica/Andy Leech x Justin Jet Zorbas - Reaching The Summit.mp3
+23:electronica/Athene - Limbo.mp3
+24:electronica/Athene - Sorrow.mp3
+25:electronica/Au5 - Follow You (feat. Danyka Nadeau) [Fractal Chill Mix].mp3
+26:electronica/Aurai - Our Dawn.mp3
+27:electronica/Aurai - Hiraeth.mp3
+28:electronica/Azaleh - Endeavour.mp3
+29:electronica/Azaleh - Rainy Nights.mp3
+30:electronica/wattstep/AZEDIA - Something (Rameses B Remix).mp3
+31:electronica/Blackmill - Spirit of Life (Full Version).mp3
+32:electronica/Blackmill - My Love.mp3
+33:electronica/chillstep/cash - dawn.m4a
+34:electronica/chillstep/Children Of The Hollow Earth - Inside Our Hearts (Original).mp3
+35:electronica/CMA - Caught In Our Thoughts.mp3
+36:electronica/CMA - Fragments Of The Past.mp3
+37:electronica/wattstep/CMA - Open Your Eyes.mp3
+38:electronica/CMA - Without You.mp3
+39:electronica/CMA - You're Not Alone.mp3
+40:electronica/CMA - Hiraeth.mp3
+41:electronica/CMA - Losing Ground.mp3
+42:electronica/CMA - So Far Away (feat. Wonder).mp3
+43:electronica/Couros - Turning.mp3
+44:electronica/chillstep/Day 7 - Dream Away.mp3
+45:electronica/DAY 7 - Cosmic Sailing.mp3
+46:electronica/Diamans - Perception.mp3
+47:electronica/Direct & Finding Hope - Falling Into Place.mp3
+48:electronica/Direct, Mr FijiWiji & Holly Drummond - Trust In Me.mp3
+49:electronica/Direct - Memory (feat. Holly Drummond) (Mr FijiWiji Remix).mp3
+50:electronica/wattstep/Electus - Gift Of The Seekers.mp3
+51:electronica/wattstep/Electus - Seize The Day.mp3
+52:electronica/Electus - Temple of Light.mp3
+53:electronica/Electus - Where'd You Go.mp3
+54:electronica/wattstep/Electus-Who We Are.mp3
+55:electronica/Emiliano Secchi - Memory Fragments.mp3
+56:electronica/Enzalla - Fireflies.mp3
+57:electronica/Enzalla - Somewhere.mp3
+58:electronica/Faux Tales - Ascent.mp3
+59:drumnbass/Faux Tales - Atlas.mp3
+60:electronica/downtempo/Ferven - Falling.mp3
+61:electronica/chillstep/Fracx - Serenity (Original Mix).mp3
+62:electronica/Funk Fiction - Aquatic Ambience.mp3
+63:electronica/Groundfold - Awakening.mp3
+64:Hazy/Hazy & Reclaimed - Energy.mp3
+65:electronica/chillstep/Iketa - Bird.mp3
+66:electronica/wattstep/INZO - Overthinker.mp3
+67:electronica/chillstep/Jacoo - A World Of Peace.mp3
+68:electronica/Jacoo - If You Only Knew.mp3
+69:electronica/Jacoo - Cosmos.mp3
+70:electronica/wattstep/Jacoo - Eternity (Original).mp3
+71:electronica/Jacoo - Oblivion (Original).mp3
+72:electronica/Jake Chudnow - Shona.mp3
+73:electronica/Julian Kruse - Fallen From The Sky.mp3
+74:electronica/wattstep/Killigrew - Timeless as the Waves.mp3
+75:electronica/wattstep/Killigrew - Deeper Still.mp3
+76:electronica/Killigrew - Sweet Solitude.mp3
+77:electronica/Killigrew - Sorrow's End (feat. Electus).mp3
+78:electronica/Kisnou - Same Destiny.mp3
+79:electronica/Kisnou & Blure - Falling Deeper.mp3
+80:electronica/KISNOU x Silencyde - The Awakening.mp3
+81:electronica/Alive (ft.Tiffany Wiemken).mp3
+82:electronica/Kori - Safe at Last.mp3
+83:electronica/melodic/Krisu - Human.mp3
+84:electronica/Liam Thomas - Could We Say Goodbye.mp3
+85:electronica/Liam Thomas - The Last Time I Saw You.mp3
+86:electronica/mandu - dragon hood.mp3
+87:electronica/Menual - Millions of Stars.mp3
+88:electronica/Pensees & Menual – Planetary.mp3
+89:electronica/Michael FK - Farewell.mp3
+90:electronica/Michael FK - Selene.mp3
+91:electronica/Yal!x & Michael FK - The World Can Wait.mp3
+92:electronica/Michael St Laurent - Reverie.mp3
+93:electronica/MitiS - Life (Original Mix).mp3
+94:electronica/Nanobyte & Mary Lambert - Part of Life.mp3
+95:electronica/NEREUS - Pathways.mp3
+96:synthwave/Nightflyer/Nightflyer - Recall That Feeling.mp3
+97:electronica/Nomyn - Quiet Moments.mp3
+98:electronica/Pensees - Echoes.mp3
+99:electronica/downtempo/Pensees - Eclipse.mp3
+100:electronica/Phaeleh - Afterglow (feat. Soundmouse).mp3
+101:downtempo/phelian/Phelian - Lost.mp3
+102:electronica/Ptr. - Equilibrium.mp3
+103:electronica/Ptr. - Genesis.mp3
+104:electronica/Ptr. - Taiga.mp3
+105:electronica/Rameses B - Moonlight (feat. Miyoki).mp3
+106:electronica/Rameses B - Spacewalk (ft. Veela).mp3
+107:electronica/wattstep/Said The Sky - Everything.mp3
+108:electronica/Sappheiros - Passion.mp3
+109:electronica/Serein - Atlantic.mp3
+110:electronica/downtempo/Sibewest - August.mp3
+111:electronica/Sillage - Ethereal Traces.mp3
+112:electronica/Speh - Torn.mp3
+113:electronica/chillstep/Spheric - Collisions.mp3
+114:electronica/Stumbleine - Comatose.mp3
+115:electronica/Sublab & Azaleh - You Found Me.mp3
+116:electronica/Subtact & Jay Rodger - Burden (Mr FijiWiji Remix).mp3
+117:electronica/Tim Schaufert & CASHFORGOLD - Gold.mp3
+118:electronica/Tondchee - Enter Forever.mp3
+119:electronica/downtempo/Vesky - Nightfall.mp3
+120:electronica/Vesky - Alive.mp3
+121:electronica/Vesky - Traces.mp3
+122:electronica/chillstep/Vesky & Maxy Dutcher - Sequoia.mp3
+123:electronica/Vexaic - Stellar.mp3
+124:electronica/Vexaic - Last Goodbye.mp3
+125:electronica/Vorsa - Ghosts.mp3
+126:electronica/Wayr - Follow The Light.mp3
+127:electronica/Xandra - Evergreen.mp3
+128:electronica/Yinyues - Everything (ft. Mimi Page).mp3
 playlist_end
