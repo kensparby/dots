@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: Insert 4x1 table
+# key: 4x1table
+# condition: t
+# --
+| ${1:Column1} |
+| ------------ |
+| ${2:Item1}   |
+| ${3:Item1}   |
+| ${4:Item1}   |
+$0
