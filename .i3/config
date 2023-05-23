@@ -192,9 +192,9 @@ assign [class="discord"] $ws4
 assign [class="Lutris"] $ws8
 assign [class="heroic"] $ws8
 assign [class="gw2-64.exe"] $ws8
-assign [class="^Steam"] $ws5
+assign [class="^steam$"] $ws5
 assign [class="Cities.x64"] $ws8
-assign [class="(?i)Spotify"] $ws4
+assign [class="^Spotify"] $ws4
 assign [class="nebuchadnezzar"] $ws8
 assign [class="(?i)paradox launcher"] $ws8
 assign [title="^Cities: Skylines"] $ws8
@@ -248,6 +248,7 @@ for_window [class="Gcolor3"] floating enable
 for_window [class="Steam"] floating enable
 #for_window [class="steamwebhelper"] floating enable
 for_window [class="^steam_app_"] move --no-auto-back-and-forth to workspace $ws8
+for_window [class="^Spotify"] move --no-auto-back-and-forth to workspace $ws4
 
 no_focus [class="(?i)steam"]
 
@@ -321,7 +322,7 @@ exec --no-startup-id clipit
 #exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
 exec --no-startup-id xautolock -time 15 -locker blurlock
-exec_always --no-startup-id ff-theme-util
+# exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 
 # Color palette used for the terminal ( ~/.Xresources file )
@@ -468,7 +469,7 @@ mode "$mode_gaps_outer" {
 #exec setxkbmap -option "shift:both_capslock"
 
 # Runs Redshift, which works just like f.lux. Config file at ~/.config/redshift.conf
-exec redshift
+exec redshift -P -c "/home/ken/.config/redshift.conf"
 
 # Turns on numlock at login
 exec numlockx

@@ -126,5 +126,12 @@ invoke() {
 }
 
 a1111() {
-    $HOME/stable-diffusion-webui/webui.sh --api --xformers
+    $HOME/a1111/stable-diffusion-webui/webui.sh --api --xformers
+}
+
+# Use ffmpeg to change volume. Apparently there are a lot of badly mastered songs out there.
+# @param1 - path to file, e.g. "Aqua - Barbie Girl.mp3"
+# @param2 - decibels to increase/decrease by, e.g. "10" or "-15"
+changevol() {
+    ffmpeg -i $1 -filter:a "volume=$2dB" "new_$1"
 }

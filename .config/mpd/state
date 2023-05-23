@@ -1,8 +1,8 @@
-sw_volume: 31
+sw_volume: 32
 audio_device_state:1:pulse audio
 state: pause
-current: 101
-time: 312.436000
+current: 35
+time: 114.725000
 random: 1
 repeat: 1
 single: 0
@@ -11,133 +11,56 @@ crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:electronica/4lienetic - Faint.mp3
-1:Aether/Aether - Flower In Winter.mp3
-2:Aether/Aether - Dear Lillie.mp3
-3:Aether/Aether - Reawaken.mp3
-4:Aether/Aether - Eidolon.mp3
-5:Aether/Aether - Catharsis.mp3
-6:Aether/Aether & Enzalla - Overture.mp3
-7:Aether/Aether x Pensees - About You.mp3
-8:Aether/Aether & Pensees - Nocturne.mp3
-9:electronica/AK - Discovery.mp3
-10:electronica/AK - It Takes Time.mp3
-11:electronica/AK - City Of Dreams.mp3
-12:electronica/AK - Homebound.mp3
-13:electronica/AK - Gone.mp3
-14:electronica/AK - Standing Together.mp3
-15:electronica/AK & Direct - Sleepless Nights.mp3
-16:electronica/garage/Ambyion - Through the Silence.mp3
-17:electronica/Ambyion & Phelian - Farewell.mp3
-18:electronica/Ampyx - Forever.mp3
-19:electronica/Andy Leech - Shoreline.mp3
-20:electronica/Andy Leech - Thinking Of You.mp3
-21:electronica/Andy Leech & 4lienetic - Nightfall.mp3
-22:electronica/Andy Leech x Justin Jet Zorbas - Reaching The Summit.mp3
-23:electronica/Athene - Limbo.mp3
-24:electronica/Athene - Sorrow.mp3
-25:electronica/Au5 - Follow You (feat. Danyka Nadeau) [Fractal Chill Mix].mp3
-26:electronica/Aurai - Our Dawn.mp3
-27:electronica/Aurai - Hiraeth.mp3
-28:electronica/Azaleh - Endeavour.mp3
-29:electronica/Azaleh - Rainy Nights.mp3
-30:electronica/wattstep/AZEDIA - Something (Rameses B Remix).mp3
-31:electronica/Blackmill - Spirit of Life (Full Version).mp3
-32:electronica/Blackmill - My Love.mp3
-33:electronica/chillstep/cash - dawn.m4a
-34:electronica/chillstep/Children Of The Hollow Earth - Inside Our Hearts (Original).mp3
-35:electronica/CMA - Caught In Our Thoughts.mp3
-36:electronica/CMA - Fragments Of The Past.mp3
-37:electronica/wattstep/CMA - Open Your Eyes.mp3
-38:electronica/CMA - Without You.mp3
-39:electronica/CMA - You're Not Alone.mp3
-40:electronica/CMA - Hiraeth.mp3
-41:electronica/CMA - Losing Ground.mp3
-42:electronica/CMA - So Far Away (feat. Wonder).mp3
-43:electronica/Couros - Turning.mp3
-44:electronica/chillstep/Day 7 - Dream Away.mp3
-45:electronica/DAY 7 - Cosmic Sailing.mp3
-46:electronica/Diamans - Perception.mp3
-47:electronica/Direct & Finding Hope - Falling Into Place.mp3
-48:electronica/Direct, Mr FijiWiji & Holly Drummond - Trust In Me.mp3
-49:electronica/Direct - Memory (feat. Holly Drummond) (Mr FijiWiji Remix).mp3
-50:electronica/wattstep/Electus - Gift Of The Seekers.mp3
-51:electronica/wattstep/Electus - Seize The Day.mp3
-52:electronica/Electus - Temple of Light.mp3
-53:electronica/Electus - Where'd You Go.mp3
-54:electronica/wattstep/Electus-Who We Are.mp3
-55:electronica/Emiliano Secchi - Memory Fragments.mp3
-56:electronica/Enzalla - Fireflies.mp3
-57:electronica/Enzalla - Somewhere.mp3
-58:electronica/Faux Tales - Ascent.mp3
-59:drumnbass/Faux Tales - Atlas.mp3
-60:electronica/downtempo/Ferven - Falling.mp3
-61:electronica/chillstep/Fracx - Serenity (Original Mix).mp3
-62:electronica/Funk Fiction - Aquatic Ambience.mp3
-63:electronica/Groundfold - Awakening.mp3
-64:Hazy/Hazy & Reclaimed - Energy.mp3
-65:electronica/chillstep/Iketa - Bird.mp3
-66:electronica/wattstep/INZO - Overthinker.mp3
-67:electronica/chillstep/Jacoo - A World Of Peace.mp3
-68:electronica/Jacoo - If You Only Knew.mp3
-69:electronica/Jacoo - Cosmos.mp3
-70:electronica/wattstep/Jacoo - Eternity (Original).mp3
-71:electronica/Jacoo - Oblivion (Original).mp3
-72:electronica/Jake Chudnow - Shona.mp3
-73:electronica/Julian Kruse - Fallen From The Sky.mp3
-74:electronica/wattstep/Killigrew - Timeless as the Waves.mp3
-75:electronica/wattstep/Killigrew - Deeper Still.mp3
-76:electronica/Killigrew - Sweet Solitude.mp3
-77:electronica/Killigrew - Sorrow's End (feat. Electus).mp3
-78:electronica/Kisnou - Same Destiny.mp3
-79:electronica/Kisnou & Blure - Falling Deeper.mp3
-80:electronica/KISNOU x Silencyde - The Awakening.mp3
-81:electronica/Alive (ft.Tiffany Wiemken).mp3
-82:electronica/Kori - Safe at Last.mp3
-83:electronica/melodic/Krisu - Human.mp3
-84:electronica/Liam Thomas - Could We Say Goodbye.mp3
-85:electronica/Liam Thomas - The Last Time I Saw You.mp3
-86:electronica/mandu - dragon hood.mp3
-87:electronica/Menual - Millions of Stars.mp3
-88:electronica/Pensees & Menual – Planetary.mp3
-89:electronica/Michael FK - Farewell.mp3
-90:electronica/Michael FK - Selene.mp3
-91:electronica/Yal!x & Michael FK - The World Can Wait.mp3
-92:electronica/Michael St Laurent - Reverie.mp3
-93:electronica/MitiS - Life (Original Mix).mp3
-94:electronica/Nanobyte & Mary Lambert - Part of Life.mp3
-95:electronica/NEREUS - Pathways.mp3
-96:synthwave/Nightflyer/Nightflyer - Recall That Feeling.mp3
-97:electronica/Nomyn - Quiet Moments.mp3
-98:electronica/Pensees - Echoes.mp3
-99:electronica/downtempo/Pensees - Eclipse.mp3
-100:electronica/Phaeleh - Afterglow (feat. Soundmouse).mp3
-101:downtempo/phelian/Phelian - Lost.mp3
-102:electronica/Ptr. - Equilibrium.mp3
-103:electronica/Ptr. - Genesis.mp3
-104:electronica/Ptr. - Taiga.mp3
-105:electronica/Rameses B - Moonlight (feat. Miyoki).mp3
-106:electronica/Rameses B - Spacewalk (ft. Veela).mp3
-107:electronica/wattstep/Said The Sky - Everything.mp3
-108:electronica/Sappheiros - Passion.mp3
-109:electronica/Serein - Atlantic.mp3
-110:electronica/downtempo/Sibewest - August.mp3
-111:electronica/Sillage - Ethereal Traces.mp3
-112:electronica/Speh - Torn.mp3
-113:electronica/chillstep/Spheric - Collisions.mp3
-114:electronica/Stumbleine - Comatose.mp3
-115:electronica/Sublab & Azaleh - You Found Me.mp3
-116:electronica/Subtact & Jay Rodger - Burden (Mr FijiWiji Remix).mp3
-117:electronica/Tim Schaufert & CASHFORGOLD - Gold.mp3
-118:electronica/Tondchee - Enter Forever.mp3
-119:electronica/downtempo/Vesky - Nightfall.mp3
-120:electronica/Vesky - Alive.mp3
-121:electronica/Vesky - Traces.mp3
-122:electronica/chillstep/Vesky & Maxy Dutcher - Sequoia.mp3
-123:electronica/Vexaic - Stellar.mp3
-124:electronica/Vexaic - Last Goodbye.mp3
-125:electronica/Vorsa - Ghosts.mp3
-126:electronica/Wayr - Follow The Light.mp3
-127:electronica/Xandra - Evergreen.mp3
-128:electronica/Yinyues - Everything (ft. Mimi Page).mp3
+0:electronica/JCB - Embracing Solitude (Blackmill Remix).mp3
+1:electronica/Ak9 - New Life.mp3
+2:electronica/Yuna - Lullabies ( Adventure Club Remix).mp3
+3:Aether/Aether - Stargazer.mp3
+4:electronica/Illenium x Alesso x San Holo - Lift My Fractures Without You (feat. Trivecta, Ryan Exley) [Mashup].mp3
+5:electronica/Embrace One ft. Shaz Sparks - Altitude (Serobliss remix).mp3
+6:electronica/Killigrew - My Dying Star.mp3
+7:electronica/Faux Tales - Ascent.mp3
+8:electronica/Diamans - Deep Sleep.mp3
+9:electronica/Au5 - Follow You (feat. Danyka Nadeau) [Fractal Chill Mix].mp3
+10:electronica/Shockline - Ninety Miles.mp3
+11:electronica/Skrux ft. Mona Moua - Hidden.mp3
+12:electronica/Skrux - If You (Original Mix).mp3
+13:electronica/Rameses B - Moonlight.mp3
+14:electronica/MitiS - Written Emotions.mp3
+15:electronica/MitiS - Open Window.mp3
+16:electronica/Touch feat. Shana J. Munson (Vocal Mix).mp3
+17:electronica/MitiS - Life (Original Mix).mp3
+18:electronica/chillstep/MitiS - Parting.mp3
+19:electronica/chillstep/Crywolf/Crywolf - Neverland (MitiS Remix).mp3
+20:electronica/melodic/MitiS - Born.mp3
+21:electronica/Loz Contreras - Sarajevo (Blackmill Remix).mp3
+22:electronica/Nero - Promises.mp3
+23:electronica/UKF Dubstep - Universe (feat. Shaz Sparks).mp3
+24:electronica/chillstep/Neutralize ft. Emily Underhill - Shining Through the Light (Fracx Remix).mp3
+25:electronica/chillstep/new_Neutralize ft. Emily Underhill - Shining Through the Light (Fracx Remix).mp3
+26:electronica/melodic/Sub Bite - Don't Let Go ft. Sub Kore.mp3
+27:electronica/Azedia - Leviathan.mp3
+28:electronica/Mt. Eden - Sierra Leone feat. Freshly Ground (Original Mix).mp3
+29:electronica/PatrickReza - Take Me Away (feat. Jilian).mp3
+30:Koven/Koven & Memtrix - Pessimist.mp3
+31:electronica/unsorted/Michael St Laurent - Fragments (feat. Zara Kershaw) (Paragon Axis Remix).mp3
+32:electronica/chillstep/Rameses B - North.mp3
+33:electronica/Secoya - Run (Illenium & Said The Sky Remix).mp3
+34:electronica/Juventa feat. Kelly Sweet - Superhuman (Culture Code Remix).mp3
+35:electronica/Satellite Empire - Time (Yelhigh! Remix).mp3
+36:electronica/Seven Lions - Worlds Apart feat. Kerli.mp3
+37:Koven/Koven & Dabin - Revenant.mp3
+38:electronica/NicoFilippo - Vision.mp3
+39:electronica/Koven - Voices.mp3
+40:electronica/Rameses B - I Need You ft. Charlotte Haining.mp3
+41:electronica/Seven Lions - Strangers feat. Myon, Shane 54 & Tove Lo.mp3
+42:electronica/Seven Lions - Keep It Close feat. Kerli.mp3
+43:electronica/Serein - Atlantic.mp3
+44:electronica/Electus - Temple of Light.mp3
+45:electronica/melodic/Krisu - Human.mp3
+46:vesky/Reverie/vesky - Dreams.mp3
+47:electronica/Shockline - Strangers (feat. Haley Maze).mp3
+48:electronica/Kaskade & Project 46 - Last Chance (Dirtyphonics Remix).mp3
+49:electronica/For You (Ft. Melissa Hayes).mp3
+50:electronica/Au5 - Inside (feat. Danyka Nadeau).mp3
+51:drumnbass/Veela/Feint - The Journey (ft. Veela).mp3
 playlist_end

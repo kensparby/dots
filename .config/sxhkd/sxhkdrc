@@ -43,6 +43,14 @@ super + alt + p
 super + alt + s
       scrot -s '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f'
 
+# Open selection directly in Gimp for editing
+super + alt + g
+      scrot -e 'xclip -selection clipboard -target image/png -i $f' -e 'gimp $f'
+
+# Connect to bluetooth accessory with the given MAC address
+super + alt + b
+      bluetoothctl connect CC:98:8B:C1:9B:3C
+
 # Turn on Wiz lights
 super + alt + l
       lights on
