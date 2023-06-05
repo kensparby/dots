@@ -41,11 +41,11 @@ super + alt + p
 
 # Selection screenshot. Saves in /tmp with timestamp and size, and also in the clipboard.
 super + alt + s
-      scrot -s '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f'
+      scrot -l mode=edge -s '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f'
 
 # Open selection directly in Gimp for editing
 super + alt + g
-      scrot -e 'xclip -selection clipboard -target image/png -i $f' -e 'gimp $f'
+      scrot -l mode=edge -e 'xclip -selection clipboard -target image/png -i $f' -e 'gimp $f'
 
 # Connect to bluetooth accessory with the given MAC address
 super + alt + b
@@ -54,6 +54,10 @@ super + alt + b
 # Turn on Wiz lights
 super + alt + l
       lights on
+
+# Turn on Wiz lights to the `cozy` setting
+super + shift + alt + l
+      lights cozy
 
 # MPC/MPD controls
 super + comma

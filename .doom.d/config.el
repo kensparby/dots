@@ -41,7 +41,7 @@
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
-(setq org-directory "~/org/")
+(setq org-directory "~/Documents/org/")
 
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
@@ -120,19 +120,17 @@
 
 ;; ORG MODE
 
+(setq org-roam-directory "~/Documents/org/roam"
+      org-agenda-files (list org-directory)
+      org-log-done 'time
+      org-todo-keywords '((sequence "TODO(t)" "PROJ(p)" "WAIT(w)" "POST(P)" "|" "DONE(d)" "CANCELLED(c)")
+                          (sequence "[ ](T)" "[-](S)" "[?](W)" "|" "[X](D)")))
 ; after! org
 ;  (setq org-directory "~/Documents/org")
 ;  (setq org-agenda-files (list org-directory))
 ;  (setq org-log-done 'time)
 ;  (setq org-todo-keywords '((sequence "TODO(t)" "PROJ(p)" "WAIT(w)" "POST(P)" "|" "DONE(d)" "CANCELLED(c)")
 ;                            (sequence "[ ](T)" "[-](S)" "[?](W)" "|" "[X](D)"))))
-;
-; after! org-roam
-;  (setq org-roam-directory "~/Documents/org/roam"))
-;
-; ; RUST MODE
-; setq rustic-format-on-save t)
-; setq lsp-rust-analyzer-server-display-inlay-hints t)
 ;
 ; ; LSP
 ; after! lsp

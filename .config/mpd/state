@@ -1,8 +1,8 @@
-sw_volume: 32
+sw_volume: 27
 audio_device_state:1:pulse audio
 state: pause
-current: 35
-time: 114.725000
+current: 11
+time: 121.700000
 random: 1
 repeat: 1
 single: 0
@@ -11,56 +11,45 @@ crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:electronica/JCB - Embracing Solitude (Blackmill Remix).mp3
-1:electronica/Ak9 - New Life.mp3
-2:electronica/Yuna - Lullabies ( Adventure Club Remix).mp3
-3:Aether/Aether - Stargazer.mp3
-4:electronica/Illenium x Alesso x San Holo - Lift My Fractures Without You (feat. Trivecta, Ryan Exley) [Mashup].mp3
-5:electronica/Embrace One ft. Shaz Sparks - Altitude (Serobliss remix).mp3
-6:electronica/Killigrew - My Dying Star.mp3
-7:electronica/Faux Tales - Ascent.mp3
-8:electronica/Diamans - Deep Sleep.mp3
-9:electronica/Au5 - Follow You (feat. Danyka Nadeau) [Fractal Chill Mix].mp3
-10:electronica/Shockline - Ninety Miles.mp3
-11:electronica/Skrux ft. Mona Moua - Hidden.mp3
-12:electronica/Skrux - If You (Original Mix).mp3
-13:electronica/Rameses B - Moonlight.mp3
-14:electronica/MitiS - Written Emotions.mp3
-15:electronica/MitiS - Open Window.mp3
-16:electronica/Touch feat. Shana J. Munson (Vocal Mix).mp3
-17:electronica/MitiS - Life (Original Mix).mp3
-18:electronica/chillstep/MitiS - Parting.mp3
-19:electronica/chillstep/Crywolf/Crywolf - Neverland (MitiS Remix).mp3
-20:electronica/melodic/MitiS - Born.mp3
-21:electronica/Loz Contreras - Sarajevo (Blackmill Remix).mp3
-22:electronica/Nero - Promises.mp3
-23:electronica/UKF Dubstep - Universe (feat. Shaz Sparks).mp3
-24:electronica/chillstep/Neutralize ft. Emily Underhill - Shining Through the Light (Fracx Remix).mp3
-25:electronica/chillstep/new_Neutralize ft. Emily Underhill - Shining Through the Light (Fracx Remix).mp3
-26:electronica/melodic/Sub Bite - Don't Let Go ft. Sub Kore.mp3
-27:electronica/Azedia - Leviathan.mp3
-28:electronica/Mt. Eden - Sierra Leone feat. Freshly Ground (Original Mix).mp3
-29:electronica/PatrickReza - Take Me Away (feat. Jilian).mp3
-30:Koven/Koven & Memtrix - Pessimist.mp3
-31:electronica/unsorted/Michael St Laurent - Fragments (feat. Zara Kershaw) (Paragon Axis Remix).mp3
-32:electronica/chillstep/Rameses B - North.mp3
-33:electronica/Secoya - Run (Illenium & Said The Sky Remix).mp3
-34:electronica/Juventa feat. Kelly Sweet - Superhuman (Culture Code Remix).mp3
-35:electronica/Satellite Empire - Time (Yelhigh! Remix).mp3
-36:electronica/Seven Lions - Worlds Apart feat. Kerli.mp3
-37:Koven/Koven & Dabin - Revenant.mp3
-38:electronica/NicoFilippo - Vision.mp3
-39:electronica/Koven - Voices.mp3
-40:electronica/Rameses B - I Need You ft. Charlotte Haining.mp3
-41:electronica/Seven Lions - Strangers feat. Myon, Shane 54 & Tove Lo.mp3
-42:electronica/Seven Lions - Keep It Close feat. Kerli.mp3
-43:electronica/Serein - Atlantic.mp3
-44:electronica/Electus - Temple of Light.mp3
-45:electronica/melodic/Krisu - Human.mp3
-46:vesky/Reverie/vesky - Dreams.mp3
-47:electronica/Shockline - Strangers (feat. Haley Maze).mp3
-48:electronica/Kaskade & Project 46 - Last Chance (Dirtyphonics Remix).mp3
-49:electronica/For You (Ft. Melissa Hayes).mp3
-50:electronica/Au5 - Inside (feat. Danyka Nadeau).mp3
-51:drumnbass/Veela/Feint - The Journey (ft. Veela).mp3
+0:ambient/A Cerulean State/A Cerulean State - As We Lose Sight Of The Place We Once Longed For.mp3
+1:ambient/AK/AK - Abandoned.mp3
+2:ambient/Altrucent/Altrucent - Spark.mp3
+3:electronica/Andy Leech - April.mp3
+4:ambient/Grassi-Havnen/Axel Grassi-Havnen - Passion (For Her).mp3
+5:ambient/Borrtex/Borrtex - We Are Saved.mp3
+6:ambient/cash/cash - stratosphere.mp3
+7:ambient/Delectatio/Delectatio - Nothing to Give.mp3
+8:electronica/Eternall/Eternall - A Million Starflakes.mp3
+9:ambient/Foam and Sand/Foam and Sand - Circle 12.mp3
+10:ambient/För Alltid/För Alltid - Aftonland.mp3
+11:ambient/För Alltid/För Alltid - Vindstilla.mp3
+12:Hazy/Hazy - Courage.mp3
+13:Hazy/Hazy - Eternal Space.mp3
+14:Hazy/Hazy - Nightwalk.mp3
+15:Hazy/Hazy - Manifest.mp3
+16:Hazy/Hazy - After The Rain.mp3
+17:Hazy/Hazy - Cosmos.mp3
+18:electronica/Hazy - Fortune.mp3
+19:electronica/Hazy - Forever.mp3
+20:Hazy/Hazy - Universe.mp3
+21:electronica/Hazy & Borrtex - Breathe.mp3
+22:Hazy/Hazy & Reclaimed - Energy.mp3
+23:ambient/Jellis/Jellis - Reverence.mp3
+24:ambient/Michael FK/Michael FK - Cosmic Waves.mp3
+25:ambient/Michael FK/Michael FK - Parachutes.mp3
+26:ambient/Michael FK/Michael FK - Go Back.mp3
+27:electronica/wattstep/n u a g e s - Dreams.mp3
+28:ambient/Sensitize/Sensitize - Shinrin-yoku.mp3
+29:ambient/Solace/Solace - Residence.mp3
+30:Thomas James White/Thomas James White - Be at Rest.mp3
+31:ambient/Tony Anderson/Chasm/Tony Anderson - Chasm.mp3
+32:ambient/Tony Anderson/Chasm/Tony Anderson - Oyarsa (ft. Timbre).mp3
+33:ambient/Tony Anderson/Chasm/Tony Anderson - Aurora.mp3
+34:ambient/Tony Anderson/Chasm/Tony Anderson - Immersion.mp3
+35:ambient/Tony Anderson/Chasm/Tony Anderson - Younger.mp3
+36:ambient/Tony Anderson/Chasm/Tony Anderson - Nocturne in Paris.mp3
+37:ambient/Tony Anderson/Chasm/Tony Anderson - Deep Waters.mp3
+38:vesky/Reverie/vesky - We Are Just Stars.mp3
+39:vesky/Reverie/vesky - Lost in Your Memory (feat. Michael FK).mp3
+40:vesky/Reverie/vesky - Lost.mp3
 playlist_end
