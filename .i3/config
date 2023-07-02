@@ -249,8 +249,10 @@ for_window [class="Steam"] floating enable
 #for_window [class="steamwebhelper"] floating enable
 for_window [class="^steam_app_"] move --no-auto-back-and-forth to workspace $ws8
 for_window [class="^Spotify"] move --no-auto-back-and-forth to workspace $ws4
+for_window [class="kruler"] floating enable, move position center
 
 no_focus [class="(?i)steam"]
+no_focus [class="(?i)discord"]
 
 # switch to workspace with urgent window automatically
 #for_window [urgent=latest] focus

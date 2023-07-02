@@ -58,6 +58,7 @@
 (package! evil-quickscope :recipe (:host github :repo "blorbx/evil-quickscope"))
 (package! copilot
   :recipe (:host github :repo "zerolfx/copilot.el" :files ("*.el" "dist")))
+(package! codeium :recipe (:host github :repo "Exafunction/codeium.el"))
 
 ;; (package! gitconfig-mode
 ;; 	  :recipe (:host github :repo "magit/git-modes"

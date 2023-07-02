@@ -66,7 +66,7 @@ filetoclipb() {
     xclip -selection clipboard < "$1"
 }
 
-# Requires yt-dlp (the replacement for youtube-dl)
+# Requires yt-dlp on PATH (the replacement for youtube-dl)
 dl() {
     # yt-dlp --extract-audio --audio-format 'mp3' --audio-quality 0 "$1"
     yt-dlp -x --audio-format 'mp3' --embed-metadata --audio-quality 0 -o "%(artist)s - %(track)s.%(ext)s" "$1"
@@ -78,8 +78,7 @@ alias updmirrors="sudo pacman-mirrors --fasttrack"
 # Fetch Meyer's CSS reset to current folder
 # alias cssreset="wget https://meyerweb.com/eric/tools/css/reset/reset.css"
 alias cssreset="cp $HOME/dev/modernreset.css ./reset.css"
-
-alias utilcss="cp $HOME/dev/utilities.css ./util.css"
+alias utilcss="cp $HOME/dev/utilities.css ./utils.css"
 
 cssnormalize() {
     if [ "$1" = "mini" ]; then

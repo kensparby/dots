@@ -33,7 +33,6 @@
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
 ;; (setq doom-theme 'doom-nord)
-(setq doom-theme 'doom-nord)
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -89,17 +88,20 @@
 ;;       doom-big-font (font-spec :family "Iosevka Nerd Font Mono" :size 22))
 ;; (setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 13 :style "Regular" :weight 'light :width 'condensed)
 ;; (setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 13 :style "Regular")
-(setq doom-font (font-spec :family "RobotoMono Nerd Font" :size 13 :style "Regular")
+(setq doom-font (font-spec :family "JetBrainsMono Nerd Font Mono" :size 12 :style "Regular")
       ;; doom-variable-pitch-font (font-spec :family "JetBrainsMono Nerd Font" :style "Italic")    ; Inherits size from 'doom-font'
-      doom-variable-pitch-font (font-spec :family "RobotoMono Nerd Font" :style "Italic")    ; Inherits size from 'doom-font'
+      doom-variable-pitch-font (font-spec :family "JetBrainsMono Nerd Font" :style "Italic")    ; Inherits size from 'doom-font'
       doom-unicode-font (font-spec :family "Noto Sans Symbols")                      ; Fallback for unicode symbols not supported by main font
-      doom-big-font (font-spec :family "RobotoMono Nerd Font" :size 22 :style "Regular"))
+      doom-big-font (font-spec :family "JetBrainsMono Nerd Font" :size 22 :style "Regular"))
 ;;(setq doom-font "-PfEd-Monoid Nerd Font Mono-normal-normal-semicondensed-*-12-*-*-*-m-0-iso10646-1")
 
 (custom-theme-set-faces! 'doom-flatwhite
   '(font-lock-comment-face :background "#fcf2bf")
   '(font-lock-type-face :background "#f9e0c7")
   '(hi-yellow :background "#d9c6c3"))
+
+(custom-theme-set-faces! 'doom-gruvbox-material
+                        '(font-lock-keyword-face :foreground "#72966c"))
 
 (after! doom-themes
   (setq doom-themes-enable-bold t
@@ -109,6 +111,22 @@
 (custom-set-faces!
   '(font-lock-comment-face :slant italic)
   '(font-lock-keyword-face :slant italic))
+
+;; <GRUVBOX MATERIAL> (https://github.com/Cardoso1994/doom-gruvbox-material-theme)
+;; `gruvbox-material' contrast and palette options
+(setq doom-gruvbox-material-background  "medium"  ; soft || medium || hard (defaults to soft)
+     doom-gruvbox-material-palette     "material") ; material || mix || original (defaults to materia)
+
+;; `gruvbox-material-light' contrast and palette options
+(setq doom-gruvbox-material-light-background  "medium" ; soft || medium || hard (defaults to soft)
+      doom-gruvbox-material-light-palette     "mix") ; material || mix || original (defaults to material)
+
+;; set `doom-theme'
+(setq doom-theme 'doom-gruvbox-material) ; dark variant
+;; (setq doom-theme 'doom-gruvbox-material-light) ; light variant
+
+
+;; </GRUVBOX MATERIAL>
 
 (map! :leader
       :desc "Prev heading'"
@@ -305,10 +323,87 @@
 (setq lsp-ui-doc-show-with-mouse nil)
 
 ;; Accept completion from copilot and fallback to company
-(use-package! copilot
-  :hook (prog-mode . copilot-mode)
-  :bind (:map copilot-completion-map
-              ("<tab>" . 'copilot-accept-completion)
-              ("TAB" . 'copilot-accept-completion)
-              ("C-TAB" . 'copilot-accept-completion-by-word)
-              ("C-<tab>" . 'copilot-accept-completion-by-word)))
+;; (use-package! copilot
+;;   :hook (prog-mode . copilot-mode)
+;;   :bind (:map copilot-completion-map
+;;               ("<tab>" . 'copilot-accept-completion)
+;;               ("TAB" . 'copilot-accept-completion)
+;;               ("C-TAB" . 'copilot-accept-completion-by-word)
+;;               ("C-<tab>" . 'copilot-accept-completion-by-word)))
+
+
+;; we recommend using use-package to organize your init.el
+;; (use-package codeium
+;;     ;; if you use straight
+;;     ;; :straight '(:type git :host github :repo "Exafunction/codeium.el")
+;;     ;; otherwise, make sure that the codeium.el file is on load-path
+
+;;     :init
+;;     ;; use globally
+;;     ;; (add-to-list 'completion-at-point-functions #'codeium-completion-at-point)
+;;     ;; or on a hook
+;;     ;; (add-hook 'python-mode-hook
+;;     ;;     (lambda ()
+;;     ;;         (setq-local completion-at-point-functions '(codeium-completion-at-point))))
+
+;;     ;; if you want multiple completion backends, use cape (https://github.com/minad/cape):
+;;     ;; (add-hook 'python-mode-hook
+;;     ;;     (lambda ()
+;;     ;;         (setq-local completion-at-point-functions
+;;     ;;             (list (cape-super-capf #'codeium-completion-at-point #'lsp-completion-at-point)))))
+;;     ;; an async company-backend is coming soon!
+
+;;     ;; codeium-completion-at-point is autoloaded, but you can
+;;     ;; optionally set a timer, which might speed up things as the
+;;     ;; codeium local language server takes ~0.2s to start up
+;;     ;; (add-hook 'emacs-startup-hook
+;;     ;;  (lambda () (run-with-timer 0.1 nil #'codeium-init)))
+
+;;     ;; :defer t ;; lazy loading, if you want
+;;     :config
+;;     (setq use-dialog-box nil) ;; do not use popup boxes
+
+;;     ;; if you don't want to use customize to save the api-key
+;;     ;; (setq codeium/metadata/api_key "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx")
+
+;;     ;; get codeium status in the modeline
+;;     (setq codeium-mode-line-enable
+;;         (lambda (api) (not (memq api '(CancelRequest Heartbeat AcceptCompletion)))))
+;;     (add-to-list 'mode-line-format '(:eval (car-safe codeium-mode-line)) t)
+;;     ;; alternatively for a more extensive mode-line
+;;     ;; (add-to-list 'mode-line-format '(-50 "" codeium-mode-line) t)
+
+;;     ;; use M-x codeium-diagnose to see apis/fields that would be sent to the local language server
+;;     (setq codeium-api-enabled
+;;         (lambda (api)
+;;             (memq api '(GetCompletions Heartbeat CancelRequest GetAuthToken RegisterUser auth-redirect AcceptCompletion))))
+;;     ;; you can also set a config for a single buffer like this:
+;;     ;; (add-hook 'python-mode-hook
+;;     ;;     (lambda ()
+;;     ;;         (setq-local codeium/editor_options/tab_size 4)))
+
+;;     ;; You can overwrite all the codeium configs!
+;;     ;; for example, we recommend limiting the string sent to codeium for better performance
+;;     (defun my-codeium/document/text ()
+;;         (buffer-substring-no-properties (max (- (point) 3000) (point-min)) (min (+ (point) 1000) (point-max))))
+;;     ;; if you change the text, you should also change the cursor_offset
+;;     ;; warning: this is measured by UTF-8 encoded bytes
+;;     (defun my-codeium/document/cursor_offset ()
+;;         (codeium-utf8-byte-length
+;;             (buffer-substring-no-properties (max (- (point) 3000) (point-min)) (point))))
+;;     (setq codeium/document/text 'my-codeium/document/text)
+;;     (setq codeium/document/cursor_offset 'my-codeium/document/cursor_offset))
+
+;; (use-package company
+;;   :defer 0.1
+;;   :config
+;;   (global-company-mode t)
+;;   (setq-default
+;;    company-idle-delay 0.2
+;;    company-require-match nil
+;;    company-minimum-prefix-length 0
+;;    ;; get only preview
+;;    ;; company-frontends '(company-preview-frontend)
+;;    ;; also get a drop down
+;;    company-frontends '(company-pseudo-tooltip-frontend company-preview-frontend)
+;;    ))
