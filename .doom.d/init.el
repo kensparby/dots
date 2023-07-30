@@ -153,7 +153,9 @@
        ;;idris             ; a language you can depend on
        (json              ; At least it ain't XML
         +lsp)
-       ;;(java +lsp)       ; the poster child for carpal tunnel syndrome
+       (java               ; the poster child for carpal tunnel syndrome
+        +tree-sitter
+        +lsp)
        (javascript        ; all(hope(abandon(ye(who(enter(here))))))
         +tree-sitter
         +lsp)

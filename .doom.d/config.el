@@ -88,12 +88,21 @@
 ;;       doom-big-font (font-spec :family "Iosevka Nerd Font Mono" :size 22))
 ;; (setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 13 :style "Regular" :weight 'light :width 'condensed)
 ;; (setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 13 :style "Regular")
+;;(setq doom-font "-PfEd-Monoid Nerd Font Mono-normal-normal-semicondensed-*-12-*-*-*-m-0-iso10646-1")
+
+;; CommitMono
+;; (setq doom-font (font-spec :family "CommitMono" :size 12 :style "Regular")
+;;       ;; doom-variable-pitch-font (font-spec :family "JetBrainsMono Nerd Font" :style "Italic")    ; Inherits size from 'doom-font'
+;;       doom-variable-pitch-font (font-spec :family "CommitMono" :style "Italic")    ; Inherits size from 'doom-font'
+;;       doom-unicode-font (font-spec :family "Noto Sans Symbols")                      ; Fallback for unicode symbols not supported by main font
+;;       doom-big-font (font-spec :family "CommitMono" :size 22 :style "Regular"))
+
+;; JetBrains
 (setq doom-font (font-spec :family "JetBrainsMono Nerd Font Mono" :size 12 :style "Regular")
       ;; doom-variable-pitch-font (font-spec :family "JetBrainsMono Nerd Font" :style "Italic")    ; Inherits size from 'doom-font'
       doom-variable-pitch-font (font-spec :family "JetBrainsMono Nerd Font" :style "Italic")    ; Inherits size from 'doom-font'
       doom-unicode-font (font-spec :family "Noto Sans Symbols")                      ; Fallback for unicode symbols not supported by main font
       doom-big-font (font-spec :family "JetBrainsMono Nerd Font" :size 22 :style "Regular"))
-;;(setq doom-font "-PfEd-Monoid Nerd Font Mono-normal-normal-semicondensed-*-12-*-*-*-m-0-iso10646-1")
 
 (custom-theme-set-faces! 'doom-flatwhite
   '(font-lock-comment-face :background "#fcf2bf")

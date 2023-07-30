@@ -1,8 +1,8 @@
-sw_volume: 36
+sw_volume: 41
 audio_device_state:1:pulse audio
-state: play
-current: 23
-time: 120.229000
+state: pause
+current: 4
+time: 105.926000
 random: 1
 repeat: 1
 single: 0
@@ -63,4 +63,5 @@ playlist_begin
 49:vesky/Reverie/vesky - Dreams.mp3
 50:electronica/UKF Dubstep - Universe (feat. Shaz Sparks).mp3
 51:electronica/Yuna - Lullabies ( Adventure Club Remix).mp3
+52:synthwave/DavZ/Exotic Spaces/DavZ - Colossus.mp3
 playlist_end

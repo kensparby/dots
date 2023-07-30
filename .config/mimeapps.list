@@ -36,3 +36,4 @@ application/x-bittorrent=deluge.desktop;
 text/plain=emacsclient.desktop;
 text/html=firefox.desktop;
 application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
+text/x-python=python-usercreated-1.desktop;

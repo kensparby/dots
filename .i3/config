@@ -250,9 +250,11 @@ for_window [class="Steam"] floating enable
 for_window [class="^steam_app_"] move --no-auto-back-and-forth to workspace $ws8
 for_window [class="^Spotify"] move --no-auto-back-and-forth to workspace $ws4
 for_window [class="kruler"] floating enable, move position center
+for_window [title="^ $"] floating enable, move position center
 
 no_focus [class="(?i)steam"]
 no_focus [class="(?i)discord"]
+no_focus [title="^ $"]
 
 # switch to workspace with urgent window automatically
 #for_window [urgent=latest] focus
@@ -313,7 +315,7 @@ bindsym $mod+9 exec --no-startup-id blurlock
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 #exec --no-startup-id nitrogen --restore; sleep 1; picom -b
-exec_always --no-startup-id pkill -TERM -x picom; picom -b --config $HOME/.config/picom/picom.conf --transparent-clipping
+exec_always --no-startup-id pkill -TERM -x picom; sleep 1; picom -b --config $HOME/.config/picom/picom.conf --transparent-clipping
 #exec --no-startup-id manjaro-hello
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
