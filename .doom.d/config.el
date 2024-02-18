@@ -322,7 +322,8 @@
       :desc "Decrease number at point" "o d" #'org-decrease-number-at-point)
 
 (map! :leader
-      :desc "[vertico] Search Project" "s p" #'+vertico/project-search)
+      :desc "[vertico] Search Project" "s p" #'+vertico/project-search
+      :desc "Go to prev window" "w DEL" #'aw-flip-window)
 
 (global-unset-key (kbd "C-x C-z"))
 (global-unset-key (kbd "C-z"))

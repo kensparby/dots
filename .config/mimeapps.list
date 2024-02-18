@@ -11,11 +11,14 @@ application/x-extension-xhtml=userapp-Pale Moon.desktop
 application/x-extension-xht=userapp-Pale Moon.desktop
 image/jpeg=viewnior.desktop;gpicview.desktop;
 image/png=viewnior.desktop;gpicview.desktop;
-x-scheme-handler/mailto=userapp-Thunderbird.desktop
+x-scheme-handler/mailto=chromium.desktop
 message/rfc822=userapp-Thunderbird.desktop
 application/x-bittorrent=deluge.desktop
 x-scheme-handler/postman=Postman.desktop
 x-scheme-handler/discord-712465656758665259=discord-712465656758665259.desktop
+x-scheme-handler/nxm=vortex-downloads-handler.desktop
+x-scheme-handler/nxm-protocol=vortex-downloads-handler.desktop
+text/x-python=emacs.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Pale Moon.desktop;
@@ -36,4 +39,4 @@ application/x-bittorrent=deluge.desktop;
 text/plain=emacsclient.desktop;
 text/html=firefox.desktop;
 application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
-text/x-python=python-usercreated-1.desktop;
+text/x-python=python-usercreated-1.desktop;emacs.desktop;

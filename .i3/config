@@ -214,6 +214,8 @@ assign [class="7DaysToDie.x86_64"] $ws8
 assign [class="^Human."] $ws8
 assign [title="^Cyberpunk"] $ws8
 assign [title="^EVE"] $ws8
+assign [class="^battle.net"] $ws8
+assign [class="^world"] $ws8
 # assign [instance="(?i)spotify"] $ws3 # not working
 
 # Open specific applications in floating mode
@@ -319,7 +321,7 @@ exec_always --no-startup-id pkill -TERM -x picom; sleep 1; picom -b --config $HO
 #exec --no-startup-id manjaro-hello
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
-exec --no-startup-id pamac-tray
+# exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 # exec --no-startup-id blueman-applet
 # exec_always --no-startup-id sbxkb

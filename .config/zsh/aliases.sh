@@ -20,6 +20,7 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 alias df='df -h'                                                    # Human-readable sizes
 alias free='free -m'                                                # Show sizes in MB
 alias du='sudo du -h --max-depth 1'                                 # Human-readable way of easily seeing which directories in pwd take up the most space on the drive
+alias du_bigstuff='du -a . | sort -rh | head -10'                   # List the largest subdirectoies or files in current directory
 alias grep='grep --color=auto'
 
 # packages
@@ -30,13 +31,22 @@ alias psmem='ps auxf | sort -nr -k 4 | head -10'
 alias pscpu='ps auxf | sort -nr -k 3 | head -10'
 
 # Changing ls to exa
-alias ls='exa -al --color=always --group-directories-first'         # Exa is a non-standard improvement of ls, with (mostly) the same flags
-alias la='exa -a --color=always --group-directories-first'
-alias ll='exa -l --color=always --group-directories-first'
-alias lt='exa -aT --color=always --group-directories-first'
-alias l.='exa -a | egrep "^\."'
-alias lD='exa -D --color=always'
-alias lr='exa -tRFh'
+# alias ls='exa -al --color=always --group-directories-first'         # Exa is a non-standard improvement of ls, with (mostly) the same flags
+# alias la='exa -a --color=always --group-directories-first'
+# alias ll='exa -l --color=always --group-directories-first'
+# alias lt='exa -aT --color=always --group-directories-first'
+# alias l.='exa -a | egrep "^\."'
+# alias lD='exa -D --color=always'
+# alias lr='exa -tRFh'
+
+# Eza replaces exa
+alias ls='eza -al --color=always --group-directories-first'         # Exa is a non-standard improvement of ls, with (mostly) the same flags
+alias la='eza -a --color=always --group-directories-first'
+alias ll='eza -l --color=always --group-directories-first'
+alias lt='eza -aT --color=always --group-directories-first'
+alias l.='eza -a | egrep "^\."'
+alias lD='eza -D --color=always'
+alias lr='eza -tRFh'
 
 
 # Shortcuts to copy/paste
@@ -47,6 +57,9 @@ alias vx="xclip -o"                 # Paste from X register
 
 # Network
 alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -'
+
+# Games-related
+alias skyve="WINEPREFIX=~/.local/share/wineprefixes/cities wine /home/ken/Games/Steam/steamapps/workshop/content/255710/2881031511/App/Skyve.exe"
 
 # Advent of Code (WARN! Session cookie is private. Set it as an environment variable to avoid leaking it to Github, etc)
 getaocinput() {
