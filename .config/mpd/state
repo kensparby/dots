@@ -1,8 +1,8 @@
-sw_volume: 36
+sw_volume: 41
 audio_device_state:1:pulse audio
 state: pause
-current: 0
-time: 1.916000
+current: 1
+time: 58.819000
 random: 1
 repeat: 1
 single: 0
@@ -11,139 +11,12 @@ crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:synthwave/A Space Love Adventure/Limit Break/A Space Love Adventure - Forest Chase.mp3
-1:synthwave/A Space Love Adventure/Synth Punk EP/A Space Love Adventure - Red Blaze.mp3
-2:synthwave/A Space Love Adventure/Synth Punk EP/A Space Love Adventure - Avalanche 29.mp3
-3:synthwave/A Space Love Adventure/Synth Punk EP/A Space Love Adventure - Reign Of The Outlaws.mp3
-4:synthwave/A Space Love Adventure/Synth Punk EP/A Space Love Adventure - Thunderchrome.mp3
-5:synthwave/admo/77/ADMO - Aftershock.mp3
-6:synthwave/Artemus Gordon/The Gathering EP/Artemus Gordon - Galaxina.mp3
-7:synthwave/Artemus Gordon/The Gathering EP/Artemus Gordon - Shockwaves.mp3
-8:synthwave/Artemus Gordon/The Gathering EP/Artemus Gordon - Z.P.G.mp3
-9:synthwave/Carpenter Brut/EP III/Carpenter Brut - Division Ruine.mp3
-10:synthwave/Carpenter Brut/EP III/Carpenter Brut - Paradise Warfare.mp3
-11:synthwave/Carpenter Brut/EP III/Carpenter Brut - Run, Sally, Run!.mp3
-12:synthwave/Carpenter Brut/EP III/Carpenter Brut - Turbo Killer.mp3
-13:synthwave/Carpenter Brut/EP III/Carpenter Brut - Anarchy Road.mp3
-14:synthwave/Carpenter Brut/EP III/Carpenter Brut - Invasion A.D..mp3
-15:synthwave/Dan Terminus/The Wrath of Code/DAN TERMINUS - Cherenkov Blue Overdriver.mp3
-16:synthwave/Dan Terminus/The Wrath of Code/DAN TERMINUS - Heavy Artillery.mp3
-17:synthwave/Dan Terminus/The Wrath of Code/DAN TERMINUS - Avalanche.mp3
-18:synthwave/Dan Terminus/The Wrath of Code/DAN TERMINUS - Death by Distortion.mp3
-19:synthwave/Dan Terminus/The Wrath of Code/DAN TERMINUS - The Chasm.mp3
-20:synthwave/Dan Terminus/The Wrath of Code/DAN TERMINUS - Grim.mp3
-21:synthwave/Dan Terminus/The Wrath of Code/DAN TERMINUS - Tuned to a Dead Channel.mp3
-22:synthwave/Dan Terminus/The Wrath of Code/DAN TERMINUS - The Wrath of Code (feat. Perturbator).mp3
-23:synthwave/Dan Terminus/Automated Refrains/DAN TERMINUS - Fall of the Ancient World.mp3
-24:synthwave/Dan Terminus/Automated Refrains/DAN TERMINUS - Margaritifer.mp3
-25:synthwave/Dan Terminus/Automated Refrains/DAN TERMINUS - Angelus.mp3
-26:synthwave/Dan Terminus/Automated Refrains/DAN TERMINUS - Grimoire Blanc.mp3
-27:synthwave/Dan Terminus/Automated Refrains/DAN TERMINUS - Vesubian.mp3
-28:synthwave/Dan Terminus/Automated Refrains/DAN TERMINUS - Deus Mecanicus.mp3
-29:synthwave/Dan Terminus/Automated Refrains/DAN TERMINUS - Electronic Snow.mp3
-30:synthwave/Dan Terminus/Automated Refrains/DAN TERMINUS - Refuge.mp3
-31:synthwave/Dan Terminus/Stratospheric Cannon Symphony/DAN TERMINUS - Digital Onslaught.mp3
-32:synthwave/Dan Terminus/Stratospheric Cannon Symphony/DAN TERMINUS - Tokamak.mp3
-33:synthwave/Dan Terminus/Stratospheric Cannon Symphony/DAN TERMINUS - Steel Clouds Over Iron Trees.mp3
-34:synthwave/Dan Terminus/Stratospheric Cannon Symphony/DAN TERMINUS - Solar Maxima.mp3
-35:synthwave/Dan Terminus/Stratospheric Cannon Symphony/DAN TERMINUS - No Escape, No Exit, No Survivors (Feat. Dallas Campbell & Jeri Lin).mp3
-36:synthwave/Dan Terminus/Stratospheric Cannon Symphony/DAN TERMINUS - Universal Declaration Of Cyborg Rights.mp3
-37:synthwave/Dan Terminus/Stratospheric Cannon Symphony/DAN TERMINUS - One Million Dead In 2.7 Seconds.mp3
-38:synthwave/Dan Terminus/Stratospheric Cannon Symphony/DAN TERMINUS - Photon Carnage (Bonus Track).mp3
-39:synthwave/Dan Terminus/Stratospheric Cannon Symphony/DAN TERMINUS - Catastrophic Orbital Decay.mp3
-40:synthwave/DANCE WITH THE DEAD/B-Sides: Volumn 1/DANCE WITH THE DEAD - Banshee.mp3
-41:synthwave/DANCE WITH THE DEAD/B-Sides: Volumn 1/DANCE WITH THE DEAD - That House.mp3
-42:synthwave/DANCE WITH THE DEAD/B-Sides: Volumn 1/DANCE WITH THE DEAD - The Man who made a Monster.mp3
-43:synthwave/DANCE WITH THE DEAD/B-Sides: Volumn 1/DANCE WITH THE DEAD - The Awakening.mp3
-44:synthwave/DANCE WITH THE DEAD/B-Sides: Volumn 1/DANCE WITH THE DEAD - Tales from the Boneyard.mp3
-45:synthwave/DANCE WITH THE DEAD/B-Sides: Volumn 1/DANCE WITH THE DEAD - Entity.mp3
-46:synthwave/DANCE WITH THE DEAD/B-Sides: Volumn 1/DANCE WITH THE DEAD - Blood Moon.mp3
-47:synthwave/DANCE WITH THE DEAD/B-Sides: Volumn 1/DANCE WITH THE DEAD - Venom.mp3
-48:synthwave/DANCE WITH THE DEAD/B-Sides: Volumn 1/DANCE WITH THE DEAD - Snap.mp3
-49:synthwave/DANCE WITH THE DEAD/B-Sides: Volumn 1/DANCE WITH THE DEAD - Skeletons in the Attic.mp3
-50:synthwave/Garth Knight/Goliath/Garth Knight - Transcoding.mp3
-51:synthwave/Jake the Kid - Machina.mp3
-52:synthwave/Kalax/Ill (The Instrumentals)/Metropolis/Kalax - Midnight Rage (Remastered).mp3
-53:synthwave/Kalax/Ill (The Instrumentals)/Metropolis/Kalax - Seasick.mp3
-54:synthwave/Kavinsky/Kavinsky - ProtoVision.mp3
-55:synthwave/Lazerhawk/Dreamrider/Lazerhawk - Dreams in the Dusk.mp3
-56:synthwave/Lazerhawk/Redline/Lazerhawk - Pedal to the Metal.mp3
-57:synthwave/Lazerhawk/Skull and Shark/Lazerhawk - Chaos.mp3
-58:synthwave/Lazerhawk/Skull and Shark/Lazerhawk - Lawless.mp3
-59:synthwave/Lazerhawk/Skull and Shark/Lazerhawk - Massacre.mp3
-60:synthwave/Lazerhawk/Skull and Shark/Lazerhawk - A Promise.mp3
-61:synthwave/Lazerhawk/Skull and Shark/Lazerhawk - Dangerous After Dark.mp3
-62:synthwave/Lazerhawk/Skull and Shark/Lazerhawk - China Town.mp3
-63:synthwave/Lazerhawk/Skull and Shark/Lazerhawk - Built to Kill.mp3
-64:synthwave/Lazerhawk/Skull and Shark/Lazerhawk - Children of the Night.mp3
-65:synthwave/Lazerhawk/Skull and Shark/Lazerhawk - These Streets.mp3
-66:synthwave/Lazerhawk/Skull and Shark/Lazerhawk - Fight to the Top.mp3
-67:synthwave/Lazerhawk/Skull and Shark/Lazerhawk - Brothers.mp3
-68:synthwave/Lost Years/Lost Years - Lightbringers.mp3
-69:synthwave/Midnight Danger/Malignant Force/Midnight Danger - Stranger Days.mp3
-70:synthwave/Midnight Danger/Malignant Force/Midnight Danger - He Won`t Come Back.mp3
-71:synthwave/Midnight Danger/Malignant Force/Midnight Danger - Shadows.mp3
-72:synthwave/Midnight Danger/Malignant Force/Midnight Danger - Malignant Force.mp3
-73:synthwave/Midnight Danger/Malignant Force/Midnight Danger - Back For Blood.mp3
-74:synthwave/Night Rider 87/Night Rider 87 - Galactic Realms.mp3
-75:synthwave/Nightstop/Streetwalker/NightStop - Virtual Sexuality.mp3
-76:synthwave/Nightstop/Streetwalker/NightStop - Streetwalker.mp3
-77:synthwave/Nightstop/Streetwalker/NightStop - ULTRA.mp3
-78:synthwave/Nightstop/Streetwalker/NightStop - Young Blood.mp3
-79:synthwave/Nightstop/Streetwalker/NightStop - Disco Pervert.mp3
-80:synthwave/Nightstop/Streetwalker/NightStop - She Dances In The Dark.mp3
-81:synthwave/OGRE Sound - Revengeance Overcharge.mp3
-82:synthwave/OGRE Sound - Negotiation's Over.mp3
-83:synthwave/Perturbator/I Am The Night/Perturbator - Retrogenesis.mp3
-84:synthwave/Perturbator/I Am The Night/Perturbator - Eclipse.mp3
-85:synthwave/Perturbator/I Am The Night/Perturbator - I Am The Night.mp3
-86:synthwave/Perturbator/I Am The Night/Perturbator - Technoir (Feat. Noir Deco).mp3
-87:synthwave/Perturbator/I Am The Night/Perturbator - Raining Steel.mp3
-88:synthwave/Perturbator/I Am The Night/Perturbator - Ghost Dancers Slay Together.mp3
-89:synthwave/Perturbator/Dangerous Days/PERTURBATOR - Perturbator's Theme.mp3
-90:synthwave/Perturbator/Dangerous Days/PERTURBATOR - Raw Power.mp3
-91:synthwave/Perturbator/Dangerous Days/PERTURBATOR - Future Club.mp3
-92:synthwave/Perturbator/Dangerous Days/PERTURBATOR - War Against Machines.mp3
-93:synthwave/Perturbator/Dangerous Days/PERTURBATOR - She is Young, She is Beautiful, She is Next.mp3
-94:synthwave/Perturbator/Dangerous Days/PERTURBATOR - Humans Are Such Easy Prey.mp3
-95:synthwave/Perturbator/Dangerous Days/PERTURBATOR - Minuit (Feat. Dead Astronauts).mp3
-96:synthwave/Perturbator/Dangerous Days/PERTURBATOR - Satanic Rites.mp3
-97:synthwave/Perturbator/Dangerous Days/PERTURBATOR - Complete Domination (Feat. Carpenter Brut).mp3
-98:synthwave/Perturbator/Dangerous Days/PERTURBATOR - Dangerous Days.mp3
-99:synthwave/Perturbator/The Uncanny Valley/PERTURBATOR - Neo Tokyo.mp3
-100:synthwave/Perturbator/The Uncanny Valley/PERTURBATOR - Weapons For Children.mp3
-101:synthwave/Perturbator/The Uncanny Valley/PERTURBATOR - Death Squad.mp3
-102:synthwave/Perturbator/The Uncanny Valley/PERTURBATOR - Disco Inferno.mp3
-103:synthwave/Perturbator/The Uncanny Valley/PERTURBATOR - She Moves Like A Knife.mp3
-104:synthwave/Perturbator/The Uncanny Valley/PERTURBATOR - Diabolus Ex Machina.mp3
-105:synthwave/Perturbator/The Uncanny Valley/PERTURBATOR - Assault.mp3
-106:synthwave/Perturbator/The Uncanny Valley/PERTURBATOR - The Cult Of 2112.mp3
-107:synthwave/Perturbator/The Uncanny Valley/PERTURBATOR - The Uncanny Valley.mp3
-108:synthwave/Pusher - Echo Generation (Main Theme).mp3
-109:synthwave/Shortwire/Synapse/Shortwire - Flux.mp3
-110:synthwave/Speed Machine/Speed Machine - Confrontation.mp3
-111:synthwave/Sung/Fahrenheit/Sung - Cobalt Vision.mp3
-112:synthwave/Sung/Fahrenheit/Sung - Bayshore Route.mp3
-113:synthwave/Sung/Fahrenheit/Sung - Ignition.mp3
-114:synthwave/Sung/Rework/Sung - Icarus (2017 Version).mp3
-115:synthwave/Sung/Rework/Sung - Gang Over (2017 Version).mp3
-116:synthwave/Sung/Rework/Sung - Thunder Love (2017 Version).mp3
-117:synthwave/TOXXIFY/Sector 11/TOXXIFY - Rebel.mp3
-118:synthwave/TOXXIFY/Sector 11/TOXXIFY - Cyborg Chase.mp3
-119:synthwave/TOXXIFY/Sector 11/TOXXIFY - Twisted Truth.mp3
-120:synthwave/TOXXIFY/Sector 11/TOXXIFY - Cyber Core.mp3
-121:synthwave/TOXXIFY/Sector 11/TOXXIFY - Program Inferno.mp3
-122:synthwave/TOXXIFY/Sector 11/TOXXIFY - Eternal sacrifice.mp3
-123:synthwave/Vector Hold/Night Marauder/Vector Hold - Heavy Barrel.mp3
-124:synthwave/Vector Hold/Night Marauder/Vector Hold - Marauder's Theme.mp3
-125:synthwave/Vogel/Hologram/Vogel - Night City.mp3
-126:synthwave/Vogel/Hologram/Vogel - Hologram.mp3
-127:synthwave/Vogel/Hologram/Vogel - Dreamwaves.mp3
-128:synthwave/Vogel/Hologram/Vogel - Hologram II.mp3
-129:synthwave/Vogel/Hologram/Vogel - Andromeda.mp3
-130:synthwave/Vogel/Hologram/Vogel - Night City (Makeup and Vanity Set Remix).mp3
-131:synthwave/Vogel/IMPERIVM/Vogel - IMPERIVM.mp3
-132:synthwave/Vogel/IMPERIVM/Vogel - Different Skin.mp3
-133:synthwave/Voyage/Voyage - Sequence.mp3
-134:Vulkari64/Starset/Vulkari64 - Vigilante.mp3
+0:games/EVE/Below the Asteroids.mp3
+1:games/EVE/Merchants, Looters and Ghosts.mp3
+2:games/EVE/Precious Ore.mp3
+3:games/EVE/Primordial Star Clouds.mp3
+4:games/EVE/Red Glowing Dust.mp3
+5:games/EVE/Safe Trade Routes.mp3
+6:games/EVE/Surplus of Rare Artifacts.mp3
+7:games/EVE/The Green Nebula.mp3
 playlist_end

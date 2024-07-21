@@ -7,7 +7,7 @@
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
 (setq user-full-name "Ken Sparby"
-      user-mail-address "ken@sparby.dev")
+      user-mail-address "sparby.k@gmail.com")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;
@@ -98,11 +98,11 @@
 ;;       doom-big-font (font-spec :family "CommitMono" :size 22 :style "Regular"))
 
 ;; JetBrains
-(setq doom-font (font-spec :family "JetBrainsMono Nerd Font Mono" :size 12 :style "Regular")
+(setq doom-font (font-spec :family "JetBrainsMono Nerd Font Mono" :size 13 :style "Regular")
       ;; doom-variable-pitch-font (font-spec :family "JetBrainsMono Nerd Font" :style "Italic")    ; Inherits size from 'doom-font'
       doom-variable-pitch-font (font-spec :family "JetBrainsMono Nerd Font" :style "Italic")    ; Inherits size from 'doom-font'
       doom-unicode-font (font-spec :family "Noto Sans Symbols")                      ; Fallback for unicode symbols not supported by main font
-      doom-big-font (font-spec :family "JetBrainsMono Nerd Font" :size 22 :style "Regular"))
+      doom-big-font (font-spec :family "JetBrainsMono Nerd Font" :size 18 :style "Regular"))
 
 (custom-theme-set-faces! 'doom-flatwhite
   '(font-lock-comment-face :background "#fcf2bf")
@@ -110,7 +110,7 @@
   '(hi-yellow :background "#d9c6c3"))
 
 (custom-theme-set-faces! 'doom-gruvbox-material
-                        '(font-lock-keyword-face :foreground "#72966c"))
+  '(font-lock-keyword-face :foreground "#72966c"))
 
 (after! doom-themes
   (setq doom-themes-enable-bold t
@@ -124,7 +124,7 @@
 ;; <GRUVBOX MATERIAL> (https://github.com/Cardoso1994/doom-gruvbox-material-theme)
 ;; `gruvbox-material' contrast and palette options
 (setq doom-gruvbox-material-background  "medium"  ; soft || medium || hard (defaults to soft)
-     doom-gruvbox-material-palette     "material") ; material || mix || original (defaults to materia)
+      doom-gruvbox-material-palette     "material") ; material || mix || original (defaults to materia)
 
 ;; `gruvbox-material-light' contrast and palette options
 (setq doom-gruvbox-material-light-background  "medium" ; soft || medium || hard (defaults to soft)
@@ -152,19 +152,19 @@
       org-log-done 'time
       org-todo-keywords '((sequence "TODO(t)" "PROJ(p)" "WAIT(w)" "POST(P)" "|" "DONE(d)" "CANCELLED(c)")
                           (sequence "[ ](T)" "[-](S)" "[?](W)" "|" "[X](D)")))
-; after! org
-;  (setq org-directory "~/Documents/org")
-;  (setq org-agenda-files (list org-directory))
-;  (setq org-log-done 'time)
-;  (setq org-todo-keywords '((sequence "TODO(t)" "PROJ(p)" "WAIT(w)" "POST(P)" "|" "DONE(d)" "CANCELLED(c)")
-;                            (sequence "[ ](T)" "[-](S)" "[?](W)" "|" "[X](D)"))))
-;
-; ; LSP
-; after! lsp
-;  (setq lsp-ui-doc-enable t))
+                                        ; after! org
+                                        ;  (setq org-directory "~/Documents/org")
+                                        ;  (setq org-agenda-files (list org-directory))
+                                        ;  (setq org-log-done 'time)
+                                        ;  (setq org-todo-keywords '((sequence "TODO(t)" "PROJ(p)" "WAIT(w)" "POST(P)" "|" "DONE(d)" "CANCELLED(c)")
+                                        ;                            (sequence "[ ](T)" "[-](S)" "[?](W)" "|" "[X](D)"))))
+                                        ;
+                                        ; ; LSP
+                                        ; after! lsp
+                                        ;  (setq lsp-ui-doc-enable t))
 
-;(setq tab-always-indent 'complete)
-;(setq tab-first-completion 'word-or-paren)
+                                        ;(setq tab-always-indent 'complete)
+                                        ;(setq tab-first-completion 'word-or-paren)
 
 (use-package! evil-quickscope)
 
@@ -252,13 +252,13 @@
 ;; ELFEED STUFF
 
 ;; (setq elfeed-feeds '(("https://tympanus.net/codrops/feed" css)
-                     ;; ("https://css-tricks.com/feed" css)
-                     ;; "https://andy-bell.co.uk/feed.xml"))
+;; ("https://css-tricks.com/feed" css)
+;; "https://andy-bell.co.uk/feed.xml"))
 (after! elfeed
   (setq elfeed-search-filter "@1-month-ago +unread")) ;; "@1-month-ago +unread"
 ;; (after! elfeed
-  ;;(setq elfeed-search-filter "@1-month-ago +unread"))
-  ;; (setq elfeed-search-filter "@1-month-ago"))
+;;(setq elfeed-search-filter "@1-month-ago +unread"))
+;; (setq elfeed-search-filter "@1-month-ago"))
 
 (add-hook 'elfeed-search-mode-hook #'elfeed-update)
 
@@ -313,6 +313,10 @@
 (setq css-indent-offset 2)
 
 (setq which-key-use-C-h-commands t)
+
+(custom-set-faces!
+  '(mode-line :family "Jost")
+  '(mode-line-inactive :family "Jost"))
 
 ;; CUSTOM KEYBOARD MAPPINGS
 
@@ -417,3 +421,7 @@
 ;;    ;; also get a drop down
 ;;    company-frontends '(company-pseudo-tooltip-frontend company-preview-frontend)
 ;;    ))
+
+;; PHP STUFF
+;;
+(add-to-list 'auto-mode-alist '("\\.php\\'" . php-mode))

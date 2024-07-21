@@ -19,6 +19,7 @@ x-scheme-handler/discord-712465656758665259=discord-712465656758665259.desktop
 x-scheme-handler/nxm=vortex-downloads-handler.desktop
 x-scheme-handler/nxm-protocol=vortex-downloads-handler.desktop
 text/x-python=emacs.desktop
+x-scheme-handler/ror2mm=r2modman.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Pale Moon.desktop;

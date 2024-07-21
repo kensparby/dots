@@ -59,7 +59,7 @@ alias vx="xclip -o"                 # Paste from X register
 alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -'
 
 # Games-related
-alias skyve="WINEPREFIX=~/.local/share/wineprefixes/cities wine /home/ken/Games/Steam/steamapps/workshop/content/255710/2881031511/App/Skyve.exe"
+alias skyve="WINEPREFIX=~/.local/share/wineprefixes/cities wine /home/ken/Games/Steam/steamapps/workshop/content/255710/2881031511/App/Skyve.e"
 
 # Advent of Code (WARN! Session cookie is private. Set it as an environment variable to avoid leaking it to Github, etc)
 getaocinput() {
@@ -108,7 +108,7 @@ color() {
 
 alias mpdrpc="mpd-discord-rpc"
 alias vim="nvim"
-alias vi="nvim"
+# alias vi="nvim"
 
 imagine() {
     python \
